@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/fantasy-app/static/css/main.3826f37e.css",
+    "main.js": "/fantasy-app/static/js/main.89f01a6c.js",
+    "static/js/453.a91e92aa.chunk.js": "/fantasy-app/static/js/453.a91e92aa.chunk.js",
+    "index.html": "/fantasy-app/index.html",
+    "main.3826f37e.css.map": "/fantasy-app/static/css/main.3826f37e.css.map",
+    "main.89f01a6c.js.map": "/fantasy-app/static/js/main.89f01a6c.js.map",
+    "453.a91e92aa.chunk.js.map": "/fantasy-app/static/js/453.a91e92aa.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3826f37e.css",
+    "static/js/main.89f01a6c.js"
+  ]
+}
