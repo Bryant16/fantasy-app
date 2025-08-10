@@ -1,0 +1,495 @@
+.player-table-container {
+  padding: 10px;
+  max-width: 100%;
+  margin: 0;
+}
+
+.search-container {
+  margin-bottom: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  align-items: center;
+}
+
+.search-input {
+  flex: 1;
+  max-width: 400px;
+  min-width: 250px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.position-filter {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.position-filter label {
+  font-weight: 600;
+  color: #333;
+  white-space: nowrap;
+}
+
+.position-select {
+  padding: 8px 12px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 14px;
+  background-color: white;
+  cursor: pointer;
+  min-width: 140px;
+}
+
+.position-select:focus {
+  outline: none;
+  border-color: #007bff;
+  box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.25);
+}
+
+.reset-button {
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 600;
+  transition: background-color 0.2s;
+  white-space: nowrap;
+}
+
+.reset-button:hover {
+  background-color: #c82333;
+}
+
+.controls-container {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.view-toggle {
+  display: flex;
+  gap: 0;
+  border-radius: 6px;
+  overflow: hidden;
+  width: fit-content;
+  border: 1px solid #dee2e6;
+}
+
+.toggle-button {
+  padding: 10px 20px;
+  border: none;
+  background-color: #f8f9fa;
+  color: #495057;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 600;
+  transition: all 0.2s;
+  border-right: 1px solid #dee2e6;
+}
+
+.toggle-button:last-child {
+  border-right: none;
+}
+
+.toggle-button:hover {
+  background-color: #e9ecef;
+}
+
+.toggle-button.active {
+  background-color: #007bff;
+  color: white;
+}
+
+.toggle-button.active:hover {
+  background-color: #0056b3;
+}
+
+.main-content {
+  display: flex;
+  gap: 20px;
+  align-items: flex-start;
+  max-width: 100%;
+}
+
+.players-section {
+  flex: 1;
+}
+
+.players-section h2 {
+  color: #333;
+  margin-bottom: 15px;
+  margin-top: 0;
+}
+
+.my-team-sidebar {
+  min-width: 280px;
+  max-width: 320px;
+  flex-shrink: 0;
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  padding: 15px;
+  border: 1px solid #dee2e6;
+}
+
+.my-team-sidebar h3 {
+  color: #333;
+  margin-bottom: 15px;
+  margin-top: 41px; /* Align with table start (h2 height + margin) */
+  font-size: 18px;
+}
+
+.my-team-sidebar h4 {
+  color: #495057;
+  margin: 15px 0 10px 0;
+  font-size: 14px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.my-team-sidebar p {
+  color: #6c757d;
+  font-style: italic;
+  margin: 0;
+}
+
+.roster-status {
+  background-color: #e9ecef;
+  border-radius: 6px;
+  padding: 12px;
+  margin-bottom: 15px;
+}
+
+.status-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.status-count {
+  font-weight: 600;
+  color: #333;
+}
+
+.complete-badge {
+  background-color: #28a745;
+  color: white;
+  padding: 2px 8px;
+  border-radius: 12px;
+  font-size: 11px;
+  font-weight: 600;
+}
+
+.missing-positions {
+  font-size: 12px;
+  color: #dc3545;
+}
+
+.missing-pos {
+  font-weight: 600;
+}
+
+.position-group {
+  margin-bottom: 12px;
+}
+
+.position-header {
+  font-size: 12px;
+  font-weight: 600;
+  color: #6c757d;
+  margin-bottom: 4px;
+  text-transform: uppercase;
+}
+
+.roster-slot {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 6px 8px;
+  border-radius: 4px;
+  margin-bottom: 2px;
+  font-size: 13px;
+}
+
+.roster-slot.filled {
+  background-color: #f8f9fa;
+  border: 1px solid #dee2e6;
+}
+
+.roster-slot.empty {
+  background-color: #fff3cd;
+  border: 1px dashed #ffeaa7;
+  color: #856404;
+  justify-content: center;
+}
+
+.empty-slot {
+  font-style: italic;
+  font-size: 12px;
+}
+
+.position-tag {
+  display: inline-block;
+  background-color: #007bff;
+  color: white;
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-size: 10px;
+  font-weight: 600;
+  min-width: 32px;
+  text-align: center;
+}
+
+/* Position-specific colors */
+.position-tag.qb {
+  background-color: #17a2b8; /* Teal */
+}
+
+.position-tag.wr {
+  background-color: #007bff; /* Blue */
+}
+
+.position-tag.rb {
+  background-color: #dc3545; /* Red */
+}
+
+.position-tag.te {
+  background-color: #fd7e14; /* Orange */
+}
+
+.position-tag.k {
+  background-color: #6f42c1; /* Purple */
+}
+
+.position-tag.dst {
+  background-color: #495057; /* Dark gray */
+}
+
+.player-name {
+  flex: 1;
+  font-weight: 500;
+}
+
+.player-rank {
+  font-size: 11px;
+  color: #6c757d;
+  font-weight: 600;
+}
+
+.bench-section {
+  border-top: 1px solid #dee2e6;
+  padding-top: 15px;
+  margin-top: 15px;
+}
+
+.bench-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.bench-player {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 4px 8px;
+  border-radius: 4px;
+  margin-bottom: 2px;
+  font-size: 12px;
+  background-color: #f8f9fa;
+}
+
+.status-badge {
+  display: inline-block;
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-size: 12px;
+  font-weight: 600;
+  background-color: #007bff;
+  color: white;
+}
+
+.no-action {
+  color: #6c757d;
+  font-style: italic;
+}
+
+.player-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.player-table th {
+  background-color: #f8f9fa;
+  color: #333;
+  font-weight: 600;
+  padding: 12px 16px;
+  text-align: left;
+  border-bottom: 2px solid #dee2e6;
+  white-space: nowrap;
+}
+
+.player-table td {
+  padding: 12px 16px;
+  border-bottom: 1px solid #dee2e6;
+}
+
+.player-table tbody tr:hover {
+  background-color: #f8f9fa;
+}
+
+.player-table tbody tr.drafted {
+  background-color: #f8d7da;
+  opacity: 0.7;
+}
+
+.add-button {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 12px;
+  font-weight: 600;
+  transition: background-color 0.2s;
+  min-width: 70px;
+}
+
+.add-button:hover:not(:disabled) {
+  background-color: #218838;
+}
+
+.add-button:disabled {
+  background-color: #6c757d;
+  cursor: not-allowed;
+}
+
+.remove-button {
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 12px;
+  font-weight: 600;
+  transition: background-color 0.2s;
+  min-width: 70px;
+}
+
+.remove-button:hover {
+  background-color: #c82333;
+}
+
+.draft-button {
+  border: none;
+  padding: 6px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 12px;
+  font-weight: 600;
+  transition: all 0.2s;
+  min-width: 70px;
+}
+
+.draft-button.available {
+  background-color: #007bff;
+  color: white;
+}
+
+.draft-button.available:hover {
+  background-color: #0056b3;
+}
+
+.draft-button.drafted {
+  background-color: #6c757d;
+  color: white;
+  cursor: not-allowed;
+}
+
+.draft-button.drafted:hover {
+  background-color: #5a6268;
+}
+
+input[type="checkbox"] {
+  transform: scale(1.2);
+  cursor: pointer;
+}
+
+.sortable {
+  cursor: pointer;
+  user-select: none;
+  transition: background-color 0.2s;
+}
+
+.sortable:hover {
+  background-color: #e9ecef !important;
+}
+
+@media (max-width: 768px) {
+  .controls-container {
+    gap: 10px;
+  }
+  
+  .view-toggle {
+    width: 100%;
+  }
+  
+  .toggle-button {
+    flex: 1;
+    text-align: center;
+  }
+  
+  .search-container {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 10px;
+  }
+  
+  .search-input {
+    max-width: none;
+    min-width: auto;
+  }
+  
+  .position-filter {
+    justify-content: space-between;
+  }
+  
+  .reset-button {
+    align-self: flex-end;
+  }
+  
+  .main-content {
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .my-team-sidebar {
+    min-width: unset;
+    max-width: unset;
+    order: -1;
+  }
+  
+  .player-table {
+    font-size: 14px;
+  }
+  
+  .player-table th,
+  .player-table td {
+    padding: 8px 4px;
+  }
+}
