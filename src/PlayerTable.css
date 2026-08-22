@@ -50,6 +50,61 @@
   box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.25);
 }
 
+.columns-dropdown {
+  position: relative;
+}
+
+.columns-summary {
+  padding: 8px 12px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 14px;
+  font-weight: 600;
+  background-color: white;
+  color: #333;
+  cursor: pointer;
+  list-style: none;
+  white-space: nowrap;
+}
+
+.columns-summary::-webkit-details-marker {
+  display: none;
+}
+
+.columns-summary:after {
+  content: ' \25BE';
+}
+
+.columns-dropdown[open] .columns-summary {
+  border-color: #007bff;
+}
+
+.columns-menu {
+  position: absolute;
+  top: calc(100% + 4px);
+  left: 0;
+  z-index: 10;
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  padding: 10px 14px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  min-width: 150px;
+}
+
+.columns-menu-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 14px;
+  color: #333;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
 .reset-button {
   background-color: #dc3545;
   color: white;

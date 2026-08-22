@@ -10,8 +10,25 @@ const STORAGE_KEYS = {
   POSITION_FILTER: 'fantasy-draft-position-filter',
   SORT_CONFIG: 'fantasy-draft-sort-config',
   TEAM_SORT_CONFIG: 'fantasy-draft-team-sort-config',
-  PLAYER_VIEW_FILTER: 'fantasy-draft-player-view-filter'
+  PLAYER_VIEW_FILTER: 'fantasy-draft-player-view-filter',
+  VISIBLE_COLUMNS: 'fantasy-draft-visible-columns'
 };
+
+// Optional columns a user can hide. Player name and the Draft/Team action
+// columns always stay visible so the table remains usable.
+const COLUMN_OPTIONS = [
+  { key: 'overallRank', label: 'Rank' },
+  { key: 'team', label: 'Team' },
+  { key: 'position', label: 'Position' },
+  { key: 'positionRank', label: 'Pos Rank' },
+  { key: 'byeWeek', label: 'Bye Week' },
+  { key: 'fantasyPoints', label: '2025 Total/AVG' },
+];
+
+const DEFAULT_VISIBLE_COLUMNS = COLUMN_OPTIONS.reduce((acc, { key }) => {
+  acc[key] = true;
+  return acc;
+}, {});
 
 const saveToStorage = (key, data) => {
   try {
@@ -47,6 +64,7 @@ const PlayerTable = () => {
   const [sortConfig, setSortConfig] = useState(() => loadFromStorage(STORAGE_KEYS.SORT_CONFIG, { key: null, direction: 'asc' }));
   const [selectedPosition, setSelectedPosition] = useState(() => loadFromStorage(STORAGE_KEYS.POSITION_FILTER, 'ALL'));
   const [playerViewFilter, setPlayerViewFilter] = useState(() => loadFromStorage(STORAGE_KEYS.PLAYER_VIEW_FILTER, 'available'));
+  const [visibleColumns, setVisibleColumns] = useState(() => loadFromStorage(STORAGE_KEYS.VISIBLE_COLUMNS, DEFAULT_VISIBLE_COLUMNS));
 
   // Helper function to get position-specific CSS class
   const getPositionClass = (position) => {
@@ -130,6 +148,15 @@ const PlayerTable = () => {
     saveToStorage(STORAGE_KEYS.PLAYER_VIEW_FILTER, playerViewFilter);
   }, [playerViewFilter]);
 
+  // Persist visible column changes
+  useEffect(() => {
+    saveToStorage(STORAGE_KEYS.VISIBLE_COLUMNS, visibleColumns);
+  }, [visibleColumns]);
+
+  const toggleColumn = (key) => {
+    setVisibleColumns(prev => ({ ...prev, [key]: !prev[key] }));
+  };
+
   // Helper function to determine if a player is drafted
   const isPlayerDrafted = useCallback((player) => {
     return player.drafted || myTeam.some(teamPlayer => teamPlayer.id === player.id);
@@ -204,6 +231,7 @@ const PlayerTable = () => {
       setPlayerViewFilter('available');
       setSortConfig({ key: null, direction: 'asc' });
       setMyTeam([]);
+      setVisibleColumns(DEFAULT_VISIBLE_COLUMNS);
       
       // Reset players drafted status
       const resetPlayers = players.map(player => ({
@@ -340,6 +368,21 @@ const PlayerTable = () => {
               ))}
             </select>
           </div>
+          <details className="columns-dropdown">
+            <summary className="columns-summary">Columns</summary>
+            <div className="columns-menu">
+              {COLUMN_OPTIONS.map(({ key, label }) => (
+                <label key={key} className="columns-menu-item">
+                  <input
+                    type="checkbox"
+                    checked={visibleColumns[key]}
+                    onChange={() => toggleColumn(key)}
+                  />
+                  {label}
+                </label>
+              ))}
+            </div>
+          </details>
           <button onClick={resetAllData} className="reset-button">
             Reset Draft
           </button>
@@ -358,27 +401,39 @@ const PlayerTable = () => {
           <table className="player-table">
             <thead>
               <tr>
-                <th onClick={() => handleSort('overallRank')} className="sortable">
-                  Rank{getSortIcon('overallRank', sortConfig)}
-                </th>
+                {visibleColumns.overallRank && (
+                  <th onClick={() => handleSort('overallRank')} className="sortable">
+                    Rank{getSortIcon('overallRank', sortConfig)}
+                  </th>
+                )}
                 <th onClick={() => handleSort('playerName')} className="sortable">
                   Name{getSortIcon('playerName', sortConfig)}
                 </th>
-                <th onClick={() => handleSort('team')} className="sortable">
-                  Team{getSortIcon('team', sortConfig)}
-                </th>
-                <th onClick={() => handleSort('position')} className="sortable">
-                  Position{getSortIcon('position', sortConfig)}
-                </th>
-                <th onClick={() => handleSort('positionRank')} className="sortable">
-                  Pos Rank{getSortIcon('positionRank', sortConfig)}
-                </th>
-                <th onClick={() => handleSort('byeWeek')} className="sortable">
-                  Bye Week{getSortIcon('byeWeek', sortConfig)}
-                </th>
-                <th onClick={() => handleSort('fantasyPoints')} className="sortable">
-                  2024 Total/AVG{getSortIcon('fantasyPoints', sortConfig)}
-                </th>
+                {visibleColumns.team && (
+                  <th onClick={() => handleSort('team')} className="sortable">
+                    Team{getSortIcon('team', sortConfig)}
+                  </th>
+                )}
+                {visibleColumns.position && (
+                  <th onClick={() => handleSort('position')} className="sortable">
+                    Position{getSortIcon('position', sortConfig)}
+                  </th>
+                )}
+                {visibleColumns.positionRank && (
+                  <th onClick={() => handleSort('positionRank')} className="sortable">
+                    Pos Rank{getSortIcon('positionRank', sortConfig)}
+                  </th>
+                )}
+                {visibleColumns.byeWeek && (
+                  <th onClick={() => handleSort('byeWeek')} className="sortable">
+                    Bye Week{getSortIcon('byeWeek', sortConfig)}
+                  </th>
+                )}
+                {visibleColumns.fantasyPoints && (
+                  <th onClick={() => handleSort('fantasyPoints')} className="sortable">
+                    2025 Total/AVG{getSortIcon('fantasyPoints', sortConfig)}
+                  </th>
+                )}
                 <th>Draft</th>
                 <th>Team</th>
               </tr>
@@ -390,13 +445,15 @@ const PlayerTable = () => {
                 
                 return (
                   <tr key={player.id} className={isDrafted ? 'drafted' : ''}>
-                    <td>{player.overallRank}</td>
+                    {visibleColumns.overallRank && <td>{player.overallRank}</td>}
                     <td>{player.playerName}</td>
-                    <td>{player.team}</td>
-                    <td>{player.position}</td>
-                    <td>{player.positionRank}</td>
-                    <td>{player.byeWeek}</td>
-                    <td>{player.fantasyPoints || 'N/A'} / {((player.fantasyPoints || 0) /17).toFixed(0,2)}</td>
+                    {visibleColumns.team && <td>{player.team}</td>}
+                    {visibleColumns.position && <td>{player.position}</td>}
+                    {visibleColumns.positionRank && <td>{player.positionRank}</td>}
+                    {visibleColumns.byeWeek && <td>{player.byeWeek}</td>}
+                    {visibleColumns.fantasyPoints && (
+                      <td>{player.fantasyPoints || 'N/A'} / {((player.fantasyPoints || 0) /17).toFixed(0,2)}</td>
+                    )}
                     <td>
                       {playerViewFilter === 'available' ? (
                         <button
