@@ -479,9 +479,8 @@ input[type="checkbox"] {
   }
   
   .my-team-sidebar {
-    min-width: 0;
+    min-width: unset;
     max-width: unset;
-    width: 100%;
     order: -1;
   }
   
@@ -492,51 +491,5 @@ input[type="checkbox"] {
   .player-table th,
   .player-table td {
     padding: 8px 4px;
-  }
-
-  /* My Team: scroll horizontally instead of stacking a tall vertical list */
-  .lineup-section,
-  .bench-section {
-    min-width: 0;
-  }
-
-  .lineup-positions {
-    display: flex;
-    gap: 10px;
-    min-width: 0;
-    overflow-x: auto;
-    padding-bottom: 8px;
-    -webkit-overflow-scrolling: touch;
-    scroll-snap-type: x proximity;
-  }
-
-  .lineup-positions .position-group {
-    flex: 0 0 auto;
-    scroll-snap-align: start;
-    width: 150px;
-    margin-bottom: 0;
-  }
-
-  .lineup-positions .roster-slot {
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 2px;
-  }
-
-  .bench-list {
-    display: flex;
-    gap: 8px;
-    min-width: 0;
-    overflow-x: auto;
-    padding-bottom: 8px;
-    -webkit-overflow-scrolling: touch;
-    scroll-snap-type: x proximity;
-  }
-
-  .bench-player {
-    flex: 0 0 auto;
-    scroll-snap-align: start;
-    width: 130px;
-    margin-bottom: 0;
   }
 }
