@@ -161,6 +161,17 @@ const PlayerTable = () => {
     const updatedTeam = myTeam.filter(p => p.id !== playerId);
     setMyTeam(updatedTeam);
     saveToStorage(STORAGE_KEYS.MY_TEAM, updatedTeam);
+
+    // Fully undo the pick: also clear the drafted flag so the player
+    // returns to the available pool instead of staying locked as "Other".
+    const updatedPlayers = players.map(player =>
+      player.id === playerId ? { ...player, drafted: false } : player
+    );
+    const draftedPlayerIds = updatedPlayers
+      .filter(player => player.drafted)
+      .map(player => player.id);
+    saveToStorage(STORAGE_KEYS.DRAFTED_PLAYERS, draftedPlayerIds);
+    setPlayers(updatedPlayers);
   };
 
   const handleSort = (key) => {
@@ -418,7 +429,12 @@ const PlayerTable = () => {
                             Remove
                           </button>
                         ) : (
-                          <span className="no-action">-</span>
+                          <button
+                            onClick={() => handleDraftedChange(player.id)}
+                            className="remove-button"
+                          >
+                            Undo Draft
+                          </button>
                         )
                       )}
                     </td>

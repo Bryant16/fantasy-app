@@ -1,304 +1,304 @@
 const data = `
-81. (RB28)	Isiah Pacheco, KC	$4	10
-82. (RB29)	Tyrone Tracy Jr., NYG	$4	14
-83. (TE6)	Travis Kelce, KC	$4	10
-84. (TE7)	David Njoku, CLE	$4	9
-85. (TE8)	Mark Andrews, BAL	$4	7
-86. (TE9)	Evan Engram, DEN	$4	12
-87. (QB8)	Bo Nix, DEN	$3	12
-88. (QB9)	Kyler Murray, ARI	$3	8
-89. (QB10)	Brock Purdy, SF	$3	14
-90. (RB30)	Jaylen Warren, PIT	$3	5
-91. (RB31)	Brian Robinson Jr., WAS	$3	12
-92. (RB32)	Javonte Williams, DAL	$3	10
-93. (RB33)	Rhamondre Stevenson, NE	$3	14
-94. (RB34)	Cam Skattebo, NYG	$3	14
-95. (RB35)	J.K. Dobbins, DEN	$3	12
-96. (WR42)	Khalil Shakir, BUF	$2	7
-97. (WR43)	Jauan Jennings, SF	$2	14
-98. (WR44)	Deebo Samuel Sr., WAS	$2	12
-99. (WR45)	Ricky Pearsall, SF	$2	14
-100. (WR46)	Keon Coleman, BUF	$2	7
-101. (WR47)	Michael Pittman Jr., IND	$2	11
-102. (WR48)	Jayden Reed, GB	$2	5
-103. (QB11)	Justin Herbert, LAC	$2	12
-104. (QB12)	Caleb Williams, CHI	$2	5
-105. (QB13)	Dak Prescott, DAL	$2	10
-106. (QB14)	Justin Fields, NYJ	$2	9
-107. (WR49)	Keenan Allen, LAC	$2	12
-108. (WR50)	Darnell Mooney, ATL	$2	5
-109. (WR51)	Josh Downs, IND	$2	11
-110. (WR52)	Rashid Shaheed, NO	$2	11
-111. (WR53)	Jayden Higgins, HOU	$2	6
-112. (WR54)	Emeka Egbuka, TB	$2	9
-113. (TE10)	Tucker Kraft, GB	$2	5
-114. (RB36)	Austin Ekeler, WAS	$2	12
-115. (RB37)	Travis Etienne Jr., JAC	$2	8
-116. (RB38)	Tyjae Spears, TEN	$2	10
-117. (RB39)	Tank Bigsby, JAC	$2	8
-118. (RB40)	Jerome Ford, CLE	$2	9
-119. (RB41)	Rachaad White, TB	$2	9
-120. (RB42)	Jordan Mason, MIN	$2	6
-121. (QB15)	Drake Maye, NE	$1	14
-122. (QB16)	Jordan Love, GB	$1	5
-123. (QB17)	Jared Goff, DET	$1	8
-124. (QB18)	J.J. McCarthy, MIN	$1	6
-125. (TE11)	Colston Loveland, CHI	$1	5
-126. (TE12)	Dallas Goedert, PHI	$1	9
-127. (TE13)	Jake Ferguson, DAL	$1	10
-128. (TE14)	Dalton Kincaid, BUF	$1	7
-129. (TE15)	Tyler Warren, IND	$1	11
-130. (RB43)	Trey Benson, ARI	$1	8
-131. (RB44)	Quinshon Judkins, CLE	$1	9
-132. (RB45)	Dylan Sampson, CLE	$1	9
-133. (RB46)	Zach Charbonnet, SEA	$1	8
-134. (RB47)	Tyler Allgeier, ATL	$1	5
-135. (RB48)	Najee Harris, LAC	$1	12
-136. (WR55)	Adam Thielen, CAR	$1	14
-137. (WR56)	Xavier Legette, CAR	$1	14
-138. (WR57)	Cedric Tillman, CLE	$1	9
-139. (WR58)	Hollywood Brown, KC	$1	10
-140. (WR59)	Brandon Aiyuk, SF	$1	14
-141. (TE16)	Hunter Henry, NE	$1	14
-142. (TE17)	Kyle Pitts, ATL	$1	5
-143. (QB19)	Tua Tagovailoa, MIA	$1	12
-144. (QB20)	Matthew Stafford, LAR	$1	8
-145. (QB21)	C.J. Stroud, HOU	$1	6
-146. (RB49)	Jaylen Wright, MIA	$1	12
-147. (RB50)	Bhayshul Tuten, JAC	$1	8
-148. (RB51)	Braelon Allen, NYJ	$1	9
-149. (RB52)	Isaac Guerendo, SF	$1	14
-150. (RB53)	MarShawn Lloyd, GB	$1	5
-151. (RB54)	Ray Davis, BUF	$1	7
-152. (WR60)	Jack Bech, LV	$1	8
-153. (WR61)	Wan'Dale Robinson, NYG	$1	14
-154. (WR62)	Marvin Mims Jr., DEN	$1	12
-155. (WR63)	Kyle Williams, NE	$1	14
-156. (WR64)	Rashod Bateman, BAL	$1	7
-157. (WR65)	Luther Burden III, CHI	$1	5
-158. (WR66)	Jalen McMillan, TB	$1	9
-159. (WR67)	Tre Harris, LAC	$1	12
-160. (RB55)	Roschon Johnson, CHI	$1	5
-1. (WR1)	Ja'Marr Chase, CIN	$57	10
-2. (RB1)	Bijan Robinson, ATL	$56	5
-3. (WR2)	Justin Jefferson, MIN	$55	6
-4. (RB2)	Saquon Barkley, PHI	$55	9
-5. (RB3)	Jahmyr Gibbs, DET	$54	8
-6. (WR3)	CeeDee Lamb, DAL	$53	10
-7. (RB4)	Christian McCaffrey, SF	$53	14
-8. (WR4)	Puka Nacua, LAR	$52	8
-9. (WR5)	Malik Nabers, NYG	$51	14
-10. (WR6)	Amon-Ra St. Brown, DET	$50	8
-11. (RB5)	Ashton Jeanty, LV	$48	8
-12. (RB6)	De'Von Achane, MIA	$46	12
-13. (WR7)	Nico Collins, HOU	$45	6
-14. (WR8)	Brian Thomas Jr., JAC	$43	8
-15. (WR9)	A.J. Brown, PHI	$42	9
-16. (WR10)	Drake London, ATL	$40	5
-17. (RB7)	Jonathan Taylor, IND	$38	11
-18. (RB8)	Josh Jacobs, GB	$37	5
-19. (RB9)	Derrick Henry, BAL	$36	7
-20. (TE1)	Brock Bowers, LV	$35	8
-21. (TE2)	Trey McBride, ARI	$34	8
-22. (RB10)	Bucky Irving, TB	$33	9
-23. (RB11)	Kyren Williams, LAR	$32	8
-24. (WR11)	Tee Higgins, CIN	$32	10
-25. (WR12)	Tyreek Hill, MIA	$31	12
-26. (WR13)	Ladd McConkey, LAC	$30	12
-27. (WR14)	Davante Adams, LAR	$30	8
-28. (QB1)	Josh Allen, BUF	$29	7
-29. (QB2)	Lamar Jackson, BAL	$28	7
-30. (QB3)	Jayden Daniels, WAS	$27	12
-31. (QB4)	Jalen Hurts, PHI	$26	9
-32. (RB12)	Chase Brown, CIN	$25	10
-33. (RB13)	James Cook, BUF	$24	7
-34. (WR15)	Jaxon Smith-Njigba, SEA	$23	8
-35. (WR16)	Terry McLaurin, WAS	$22	12
-36. (WR17)	Garrett Wilson, NYJ	$22	9
-37. (RB14)	Kenneth Walker III, SEA	$22	8
-38. (RB15)	Omarion Hampton, LAC	$21	12
-39. (QB5)	Joe Burrow, CIN	$21	10
-40. (TE3)	George Kittle, SF	$20	14
-41. (RB16)	Alvin Kamara, NO	$19	11
-42. (RB17)	Chuba Hubbard, CAR	$19	14
-43. (RB18)	James Conner, ARI	$18	8
-44. (RB19)	Breece Hall, NYJ	$17	9
-45. (WR18)	Mike Evans, TB	$17	9
-46. (WR19)	Marvin Harrison Jr., ARI	$15	8
-47. (WR20)	DK Metcalf, PIT	$15	5
-48. (WR21)	DJ Moore, CHI	$14	5
-49. (WR22)	Rashee Rice, KC	$13	10
-50. (WR23)	Xavier Worthy, KC	$13	10
-51. (RB20)	Joe Mixon, HOU	$12	6
-52. (RB21)	D'Andre Swift, CHI	$11	5
-53. (WR24)	Zay Flowers, BAL	$11	7
-54. (WR25)	Courtland Sutton, DEN	$10	12
-55. (WR26)	Calvin Ridley, TEN	$10	10
-56. (WR27)	DeVonta Smith, PHI	$10	9
-57. (WR28)	Jaylen Waddle, MIA	$10	12
-58. (WR29)	Jerry Jeudy, CLE	$9	9
-59. (WR30)	Jameson Williams, DET	$9	8
-60. (WR31)	George Pickens, DAL	$9	10
-61. (TE4)	Sam LaPorta, DET	$8	8
-62. (QB6)	Patrick Mahomes, KC	$8	10
-63. (QB7)	Baker Mayfield, TB	$8	9
-64. (WR32)	Rome Odunze, CHI	$7	5
-65. (WR33)	Tetairoa McMillan, CAR	$7	14
-66. (WR34)	Travis Hunter, JAC	$7	8
-67. (RB22)	TreVeyon Henderson, NE	$7	14
-68. (RB23)	Aaron Jones, MIN	$6	6
-69. (TE5)	T.J. Hockenson, MIN	$6	6
-70. (RB24)	David Montgomery, DET	$6	8
-71. (RB25)	Kaleb Johnson, PIT	$6	5
-72. (RB26)	RJ Harvey, DEN	$6	12
-73. (WR35)	Chris Godwin, TB	$6	9
-74. (WR36)	Jakobi Meyers, LV	$5	8
-75. (WR37)	Chris Olave, NO	$5	11
-76. (WR38)	Cooper Kupp, SEA	$5	8
-77. (WR39)	Stefon Diggs, NE	$5	14
-78. (WR40)	Matthew Golden, GB	$4	5
-79. (WR41)	Jordan Addison, MIN	$4	6
-80. (RB27)	Tony Pollard, TEN	$4	10
-161. (RB56)	Jaydon Blue, DAL	$0	10
-162. (RB57)	Will Shipley, PHI	$0	9
-163. (WR68)	Michael Wilson, ARI	$0	8
-164. (WR69)	Pat Bryant, DEN	$0	12
-165. (TE18)	Chigoziem Okonkwo, TEN	$0	10
-166. (TE19)	Darren Waller, MIA	$0	12
-167. (TE20)	Zach Ertz, WAS	$0	12
-168. (TE21)	Jonnu Smith, PIT	$0	5
-169. (DST1)	Texans D/ST, HOU	$0	6
-170. (DST2)	Steelers D/ST, PIT	$0	5
-171. (DST3)	Broncos D/ST, DEN	$0	12
-172. (DST4)	Vikings D/ST, MIN	$0	6
-173. (DST5)	Seahawks D/ST, SEA	$0	8
-174. (DST6)	Ravens D/ST, BAL	$0	7
-175. (DST7)	Patriots D/ST, NE	$0	14
-176. (DST8)	Lions D/ST, DET	$0	8
-177. (DST9)	Eagles D/ST, PHI	$0	9
-178. (DST10)	Bills D/ST, BUF	$0	7
-179. (DST11)	Colts D/ST, IND	$0	11
-180. (DST12)	Jets D/ST, NYJ	$0	9
-181. (K1)	Jake Bates, DET	$0	8
-182. (K2)	Chase McLaughlin, TB	$0	9
-183. (K3)	Cameron Dicker, LAC	$0	12
-184. (K4)	Brandon Aubrey, DAL	$0	10
-185. (K5)	Jason Sanders, MIA	$0	12
-186. (K6)	Tyler Bass, BUF	$0	7
-187. (K7)	Jake Elliott, PHI	$0	9
-188. (K8)	Chris Boswell, PIT	$0	5
-189. (K9)	Harrison Butker, KC	$0	10
-190. (K10)	Cairo Santos, CHI	$0	5
-191. (K11)	Tyler Loop, BAL	$0	7
-192. (K12)	Matt Gay, WAS	$0	12
-193. (WR70)	Christian Kirk, HOU	$0	6
-194. (WR71)	Romeo Doubs, GB	$0	5
-195. (RB58)	Justice Hill, BAL	$0	7
-196. (RB59)	Kareem Hunt, KC	$0	10
-197. (WR72)	Tyler Lockett, TEN	$0	10
-198. (QB22)	Trevor Lawrence, JAC	$0	8
-199. (QB23)	Cameron Ward, TEN	$0	10
-200. (QB24)	Michael Penix Jr., ATL	$0	5
-201. (WR73)	DeMario Douglas, NE	$0	14
-202. (WR74)	Nick Westbrook-Ikhine, MIA	$0	12
-203. (WR75)	Joshua Palmer, BUF	$0	7
-204. (WR76)	Diontae Johnson, CLE	$0	9
-205. (WR77)	Brandin Cooks, NO	$0	11
-206. (TE22)	Brenton Strange, JAC	$0	8
-207. (TE23)	Mike Gesicki, CIN	$0	10
-208. (WR78)	Darius Slayton, NYG	$0	14
-209. (WR79)	DeAndre Hopkins, BAL	$0	7
-210. (WR80)	Quentin Johnston, LAC	$0	12
-211. (WR81)	Dont'e Thornton Jr., LV	$0	8
-212. (RB60)	Blake Corum, LAR	$0	8
-213. (RB61)	Nick Chubb, HOU	$0	6
-214. (RB62)	Woody Marks, HOU	$0	6
-215. (TE24)	Elijah Arroyo, SEA	$0	8
-216. (TE25)	Mason Taylor, NYJ	$0	9
-217. (TE26)	Cade Otton, TB	$0	9
-218. (QB25)	Bryce Young, CAR	$0	14
-219. (QB26)	Geno Smith, LV	$0	8
-220. (QB27)	Anthony Richardson, IND	$0	11
-221. (RB63)	Kendre Miller, NO	$0	11
-222. (RB64)	Rico Dowdle, CAR	$0	14
-223. (RB65)	Raheem Mostert, LV	$0	8
-224. (WR82)	Adonai Mitchell, IND	$0	11
-225. (RB66)	Miles Sanders, DAL	$0	10
-226. (RB67)	DJ Giddens, IND	$0	11
-227. (WR83)	Amari Cooper, FA	$0	0
-228. (WR84)	Gabe Davis, FA	$0	0
-229. (WR85)	Dyami Brown, JAC	$0	8
-230. (WR86)	Josh Reynolds, NYJ	$0	9
-231. (WR87)	Ray-Ray McCloud III, ATL	$0	5
-232. (WR88)	Tutu Atwell, LAR	$0	8
-233. (WR89)	Calvin Austin III, PIT	$0	5
-234. (WR90)	Christian Watson, GB	$0	5
-235. (DST13)	Giants D/ST, NYG	$0	14
-236. (DST14)	Buccaneers D/ST, TB	$0	9
-237. (K13)	Ka'imi Fairbairn, HOU	$0	6
-238. (K14)	Joshua Karty, LAR	$0	8
-239. (RB68)	Trevor Etienne, CAR	$0	14
-240. (RB69)	Jarquez Hunter, LAR	$0	8
-241. (RB70)	Sincere McCormick, LV	$0	8
-242. (RB71)	Antonio Gibson, NE	$0	14
-243. (RB72)	Jaleel McLaughlin, DEN	$0	12
-244. (RB73)	Devin Singletary, NYG	$0	14
-245. (RB74)	Samaje Perine, CIN	$0	10
-246. (RB75)	Ty Johnson, BUF	$0	7
-247. (RB76)	Elijah Mitchell, KC	$0	10
-248. (RB77)	Kenneth Gainwell, PIT	$0	5
-249. (RB78)	Ollie Gordon II, MIA	$0	12
-250. (RB79)	Sean Tucker, TB	$0	9
-251. (RB80)	Clyde Edwards-Helaire, NO	$0	11
-252. (WR91)	Noah Brown, WAS	$0	12
-253. (WR92)	Allen Lazard, NYJ	$0	9
-254. (DST15)	Cardinals D/ST, ARI	$0	8
-255. (DST16)	Packers D/ST, GB	$0	5
-256. (K15)	Brandon McManus, GB	$0	5
-257. (K16)	Evan McPherson, CIN	$0	10
-258. (TE27)	Pat Freiermuth, PIT	$0	5
-259. (TE28)	Dalton Schultz, HOU	$0	6
-260. (TE29)	Tyler Higbee, LAR	$0	8
-261. (WR93)	Alec Pierce, IND	$0	11
-262. (WR94)	KaVontae Turpin, DAL	$0	10
-263. (WR95)	Andrei Iosivas, CIN	$0	10
-264. (WR96)	Jalen Tolbert, DAL	$0	10
-265. (RB81)	Keaton Mitchell, BAL	$0	7
-266. (RB82)	Kyle Juszczyk, SF	$0	14
-267. (QB28)	Sam Darnold, SEA	$0	8
-268. (QB29)	Aaron Rodgers, PIT	$0	5
-269. (QB30)	Russell Wilson, NYG	$0	14
-270. (QB31)	Tyler Shough, NO	$0	11
-271. (WR97)	Jaylin Noel, HOU	$0	6
-272. (WR98)	Jalen Coker, CAR	$0	14
-273. (WR99)	Tre Tucker, LV	$0	8
-274. (WR100)	Van Jefferson, TEN	$0	10
-275. (WR101)	Greg Dortch, ARI	$0	8
-276. (RB83)	Emari Demercado, ARI	$0	8
-277. (RB84)	Kyle Monangai, CHI	$0	5
-278. (RB85)	Devin Neal, NO	$0	11
-279. (RB86)	Alec Ingold, MIA	$0	12
-280. (RB87)	Dare Ogunbowale, HOU	$0	6
-281. (RB88)	Tahj Brooks, CIN	$0	10
-282. (RB89)	Brashard Smith, KC	$0	10
-283. (RB90)	Jacory Croskey-Merritt, WAS	$0	12
-284. (WR102)	Jordan Whittington, LAR	$0	8
-285. (DST17)	Chiefs D/ST, KC	$0	10
-286. (DST18)	Bears D/ST, CHI	$0	5
-287. (K17)	Jason Myers, SEA	$0	8
-288. (K18)	Wil Lutz, DEN	$0	12
-289. (TE30)	Theo Johnson, NYG	$0	14
-290. (TE31)	Isaiah Likely, BAL	$0	7
-291. (TE32)	Juwan Johnson, NO	$0	11
-292. (TE33)	Ja'Tavion Sanders, CAR	$0	14
-293. (TE34)	Tyler Conklin, LAC	$0	12
-294. (WR103)	Jalen Nailor, MIN	$0	6
-295. (WR104)	Marquez Valdes-Scantling, SEA	$0	8
-296. (QB32)	Daniel Jones, IND	$0	11
-297. (DST19)	Rams D/ST, LAR	$0	8
-298. (DST20)	49ers D/ST, SF	$0	14
-299. (DST21)	Dolphins D/ST, MIA	$0	12
-300. (DST22)	Chargers D/ST, LAC	$0	12`;
+1. (RB1)	Jahmyr Gibbs, DET	$57	6
+2. (RB2)	Bijan Robinson, ATL	$56	11
+3. (WR1)	Ja'Marr Chase, CIN	$56	6
+4. (WR2)	Puka Nacua, LAR	$55	11
+5. (WR3)	Jaxon Smith-Njigba, SEA	$54	11
+6. (RB3)	Christian McCaffrey, SF	$53	8
+7. (RB4)	Jonathan Taylor, IND	$52	13
+8. (WR4)	Amon-Ra St. Brown, DET	$52	6
+9. (WR5)	CeeDee Lamb, DAL	$51	14
+10. (RB5)	De'Von Achane, MIA	$50	6
+11. (WR6)	Justin Jefferson, MIN	$48	6
+12. (RB6)	James Cook III, BUF	$46	7
+13. (RB7)	Ashton Jeanty, LV	$45	13
+14. (WR7)	Drake London, ATL	$43	11
+15. (RB8)	Jeremiyah Love, ARI	$42	14
+16. (WR8)	Rashee Rice, KC	$40	5
+17. (TE1)	Trey McBride, ARI	$38	14
+18. (RB9)	Saquon Barkley, PHI	$37	10
+19. (RB10)	Derrick Henry, BAL	$36	13
+20. (RB11)	Chase Brown, CIN	$35	6
+21. (RB12)	Kenneth Walker III, KC	$34	5
+22. (RB13)	Omarion Hampton, LAC	$33	7
+23. (RB14)	Breece Hall, NYJ	$32	13
+24. (TE2)	Brock Bowers, LV	$32	13
+25. (WR9)	Nico Collins, HOU	$31	8
+26. (WR10)	Chris Olave, NO	$30	8
+27. (WR11)	Garrett Wilson, NYJ	$30	13
+28. (WR12)	A.J. Brown, NE	$29	11
+29. (WR13)	Malik Nabers, NYG	$28	8
+30. (RB15)	Josh Jacobs, GB	$27	11
+31. (RB16)	Javonte Williams, DAL	$26	14
+32. (WR14)	George Pickens, DAL	$25	14
+33. (WR15)	Tetairoa McMillan, CAR	$24	5
+34. (WR16)	Zay Flowers, BAL	$23	13
+35. (WR17)	DeVonta Smith, PHI	$22	10
+36. (QB1)	Josh Allen, BUF	$22	7
+37. (RB17)	Travis Etienne Jr., NO	$22	8
+38. (RB18)	Kyren Williams, LAR	$21	11
+39. (RB19)	Quinshon Judkins, CLE	$21	11
+40. (RB20)	Cam Skattebo, NYG	$20	8
+41. (RB21)	Bucky Irving, TB	$19	10
+42. (WR18)	Emeka Egbuka, TB	$19	10
+43. (WR19)	Davante Adams, LAR	$18	11
+44. (WR20)	Ladd McConkey, LAC	$17	7
+45. (WR21)	Terry McLaurin, WAS	$17	7
+46. (WR22)	Tee Higgins, CIN	$15	6
+47. (WR23)	Jaylen Waddle, DEN	$15	10
+48. (WR24)	Rome Odunze, CHI	$14	10
+49. (TE3)	Colston Loveland, CHI	$13	10
+50. (TE4)	Tyler Warren, IND	$13	13
+51. (WR25)	Jameson Williams, DET	$12	6
+52. (WR26)	DJ Moore, BUF	$11	7
+53. (WR27)	Luther Burden III, CHI	$11	10
+54. (WR28)	Carnell Tate, TEN	$10	9
+55. (QB2)	Jayden Daniels, WAS	$10	7
+56. (QB3)	Lamar Jackson, BAL	$10	13
+57. (QB4)	Drake Maye, NE	$10	11
+58. (QB5)	Jalen Hurts, PHI	$9	10
+59. (RB22)	Bhayshul Tuten, JAC	$9	7
+60. (RB23)	D'Andre Swift, CHI	$9	10
+61. (RB24)	David Montgomery, HOU	$8	8
+62. (RB25)	Jadarian Price, SEA	$8	11
+63. (RB26)	TreVeyon Henderson, NE	$8	11
+64. (RB27)	Rhamondre Stevenson, NE	$7	11
+65. (WR29)	Courtland Sutton, DEN	$7	10
+66. (WR30)	Michael Pittman Jr., PIT	$7	9
+67. (WR31)	Marvin Harrison Jr., ARI	$7	14
+68. (WR32)	DK Metcalf, PIT	$6	9
+69. (WR33)	Parker Washington, JAC	$6	7
+70. (WR34)	Alec Pierce, IND	$6	13
+71. (TE5)	Kyle Pitts Sr., ATL	$6	11
+72. (TE6)	Harold Fannin Jr., CLE	$6	11
+73. (TE7)	Sam LaPorta, DET	$6	6
+74. (QB6)	Joe Burrow, CIN	$5	6
+75. (QB7)	Jaxson Dart, NYG	$5	8
+76. (WR35)	Mike Evans, SF	$5	8
+77. (WR36)	Christian Watson, GB	$5	11
+78. (WR37)	Matthew Golden, GB	$4	11
+79. (WR38)	Michael Wilson, ARI	$4	14
+80. (WR39)	Brian Thomas Jr., JAC	$4	7
+81. (WR40)	Jakobi Meyers, JAC	$4	7
+82. (QB8)	Trevor Lawrence, JAC	$4	7
+83. (QB9)	Dak Prescott, DAL	$4	14
+84. (QB10)	Bo Nix, DEN	$4	10
+85. (QB11)	Brock Purdy, SF	$4	8
+86. (QB12)	Matthew Stafford, LAR	$4	11
+87. (QB13)	Caleb Williams, CHI	$3	10
+88. (WR41)	Wan'Dale Robinson, TEN	$3	9
+89. (WR42)	Jordan Addison, MIN	$3	6
+90. (WR43)	Khalil Shakir, BUF	$3	7
+91. (WR44)	Jayden Reed, GB	$3	11
+92. (WR45)	Xavier Worthy, KC	$3	5
+93. (QB14)	Justin Herbert, LAC	$3	7
+94. (QB15)	Patrick Mahomes, KC	$3	5
+95. (RB28)	Jaylen Warren, PIT	$3	9
+96. (RB29)	Rico Dowdle, PIT	$2	9
+97. (RB30)	Tony Pollard, TEN	$2	9
+98. (RB31)	Kenny Gainwell, TB	$2	10
+99. (RB32)	Jonathon Brooks, CAR	$2	5
+100. (RB33)	Chuba Hubbard, CAR	$2	5
+101. (TE8)	Tucker Kraft, GB	$2	11
+102. (TE9)	George Kittle, SF	$2	8
+103. (TE10)	Dallas Goedert, PHI	$2	10
+104. (TE11)	Travis Kelce, KC	$2	5
+105. (RB34)	J.K. Dobbins, DEN	$2	10
+106. (RB35)	Kyle Monangai, CHI	$2	10
+107. (RB36)	Jacory Croskey-Merritt, WAS	$2	7
+108. (RB37)	Rachaad White, WAS	$2	7
+109. (TE12)	Jake Ferguson, DAL	$2	14
+110. (TE13)	Mark Andrews, BAL	$2	13
+111. (TE14)	T.J. Hockenson, MIN	$2	6
+112. (WR46)	Quentin Johnston, LAC	$2	7
+113. (WR47)	Josh Downs, IND	$2	13
+114. (WR48)	Deebo Samuel Sr., SF	$2	8
+115. (RB38)	Aaron Jones Sr., MIN	$2	6
+116. (TE15)	Isaiah Likely, NYG	$2	8
+117. (TE16)	Dalton Kincaid, BUF	$2	7
+118. (TE17)	Kenyon Sadiq, NYJ	$2	13
+119. (TE18)	Hunter Henry, NE	$2	11
+120. (RB39)	Jordan Mason, MIN	$2	6
+121. (RB40)	Blake Corum, LAR	$1	11
+122. (RB41)	RJ Harvey, DEN	$1	10
+123. (RB42)	Woody Marks, HOU	$1	8
+124. (WR49)	Stefon Diggs, WAS	$1	7
+125. (WR50)	Makai Lemon, PHI	$1	10
+126. (WR51)	KC Concepcion, CLE	$1	11
+127. (WR52)	Chris Godwin Jr., TB	$1	10
+128. (WR53)	Romeo Doubs, NE	$1	11
+129. (WR54)	De'Zhaun Stribling, SF	$1	8
+130. (WR55)	Tank Dell, HOU	$1	8
+131. (WR56)	Jalen Coker, CAR	$1	5
+132. (WR57)	Rashid Shaheed, SEA	$1	11
+133. (QB16)	Kyler Murray, MIN	$1	6
+134. (QB17)	Tyler Shough, NO	$1	8
+135. (QB18)	Jared Goff, DET	$1	6
+136. (QB19)	Daniel Jones, IND	$1	13
+137. (RB43)	Zach Charbonnet, SEA	$1	11
+138. (RB44)	Alvin Kamara, NO	$1	8
+139. (RB45)	Tyjae Spears, TEN	$1	9
+140. (RB46)	Chris Rodriguez Jr., JAC	$1	7
+141. (RB47)	Brian Robinson Jr., ATL	$1	11
+142. (RB48)	Tyler Allgeier, ARI	$1	14
+143. (WR58)	Denzel Boston, CLE	$1	11
+144. (WR59)	Jerry Jeudy, CLE	$1	11
+145. (WR60)	Jalen McMillan, TB	$1	10
+146. (WR61)	Calvin Ridley, TEN	$1	9
+147. (WR62)	Caleb Douglas, MIA	$1	6
+148. (WR63)	Adonai Mitchell, NYJ	$1	13
+149. (QB20)	Baker Mayfield, TB	$1	10
+150. (QB21)	Malik Willis, MIA	$1	6
+151. (WR64)	Travis Hunter, JAC	$1	7
+152. (WR65)	Jordyn Tyson, NO	$1	8
+153. (WR66)	Tre Tucker, LV	$1	13
+154. (RB49)	Keaton Mitchell, LAC	$1	7
+155. (RB50)	Isiah Pacheco, DET	$1	6
+156. (RB51)	Jonah Coleman, DEN	$1	10
+157. (RB52)	Tank Bigsby, PHI	$1	10
+158. (RB53)	Ray Davis, BUF	$1	7
+159. (TE19)	Terrance Ferguson, LAR	$1	11
+160. (TE20)	Juwan Johnson, NO	$1	8
+161. (WR67)	Jalen Nailor, LV	$0	13
+162. (WR68)	Keenan Allen, IND	$0	13
+163. (WR69)	Rashod Bateman, BAL	$0	13
+164. (WR70)	Dontayvion Wicks, PHI	$0	10
+165. (WR71)	Jaylin Noel, HOU	$0	8
+166. (RB54)	Dylan Sampson, CLE	$0	11
+167. (RB55)	Mike Washington Jr., LV	$0	13
+168. (RB56)	Tyrone Tracy Jr., NYG	$0	8
+169. (DST1)	Texans D/ST, HOU	$0	8
+170. (DST2)	Broncos D/ST, DEN	$0	10
+171. (DST3)	Steelers D/ST, PIT	$0	9
+172. (DST4)	Seahawks D/ST, SEA	$0	11
+173. (DST5)	Rams D/ST, LAR	$0	11
+174. (DST6)	Ravens D/ST, BAL	$0	13
+175. (DST7)	Eagles D/ST, PHI	$0	10
+176. (DST8)	Browns D/ST, CLE	$0	11
+177. (DST9)	Patriots D/ST, NE	$0	11
+178. (DST10)	Lions D/ST, DET	$0	6
+179. (DST11)	Chiefs D/ST, KC	$0	5
+180. (DST12)	Chargers D/ST, LAC	$0	7
+181. (K1)	Brandon Aubrey, DAL	$0	14
+182. (K2)	Cameron Dicker, LAC	$0	7
+183. (K3)	Jason Myers, SEA	$0	11
+184. (K4)	Harrison Mevis, LAR	$0	11
+185. (K5)	Ka'imi Fairbairn, HOU	$0	8
+186. (K6)	Eddy Pineiro, SF	$0	8
+187. (K7)	Harrison Butker, KC	$0	5
+188. (K8)	Cam Little, JAC	$0	7
+189. (K9)	Jake Bates, DET	$0	6
+190. (K10)	Tyler Loop, BAL	$0	13
+191. (K11)	Cairo Santos, CHI	$0	10
+192. (K12)	Will Reichard, MIN	$0	6
+193. (RB57)	Braelon Allen, NYJ	$0	13
+194. (TE21)	Brenton Strange, JAC	$0	7
+195. (RB58)	Justice Hill, BAL	$0	13
+196. (RB59)	MarShawn Lloyd, GB	$0	11
+197. (WR72)	Ja'Kobi Lane, BAL	$0	13
+198. (QB22)	Jordan Love, GB	$0	11
+199. (QB23)	C.J. Stroud, HOU	$0	8
+200. (QB24)	Sam Darnold, SEA	$0	11
+201. (WR73)	Devaughn Vele, NO	$0	8
+202. (WR74)	Germie Bernard, PIT	$0	9
+203. (WR75)	Jauan Jennings, MIN	$0	6
+204. (WR76)	Tre Harris, LAC	$0	7
+205. (WR77)	Ryan Flournoy, DAL	$0	14
+206. (TE22)	Pat Freiermuth, PIT	$0	9
+207. (TE23)	Dalton Schultz, HOU	$0	8
+208. (WR78)	Zachariah Branch, ATL	$0	11
+209. (WR79)	Omar Cooper Jr., NYJ	$0	13
+210. (WR80)	Kayshon Boutte, NE	$0	11
+211. (WR81)	Malik Washington, MIA	$0	6
+212. (RB60)	Jordan James, SF	$0	8
+213. (RB61)	Kaelon Black, SF	$0	8
+214. (RB62)	Kimani Vidal, LAC	$0	7
+215. (TE24)	Gunnar Helm, TEN	$0	9
+216. (TE25)	Chig Okonkwo, WAS	$0	7
+217. (TE26)	AJ Barner, SEA	$0	11
+218. (QB25)	Bryce Young, CAR	$0	5
+219. (QB26)	Cam Ward, TEN	$0	9
+220. (QB27)	Jacoby Brissett, ARI	$0	14
+221. (RB63)	Jaylen Wright, MIA	$0	6
+222. (RB64)	Ollie Gordon II, MIA	$0	6
+223. (RB65)	Samaje Perine, CIN	$0	6
+224. (WR82)	Cooper Kupp, SEA	$0	11
+225. (RB66)	Ty Johnson, BUF	$0	7
+226. (RB67)	Isaiah Davis, NYJ	$0	13
+227. (WR83)	Xavier Legette, CAR	$0	5
+228. (WR84)	Jahan Dotson, ATL	$0	11
+229. (WR85)	Darius Slayton, NYG	$0	8
+230. (WR86)	Jalen Tolbert, MIA	$0	6
+231. (WR87)	Chris Bell, MIA	$0	6
+232. (WR88)	Antonio Williams, WAS	$0	7
+233. (WR89)	Tyquan Thornton, KC	$0	5
+234. (WR90)	Keon Coleman, BUF	$0	7
+235. (DST13)	Buccaneers D/ST, TB	$0	10
+236. (DST14)	Packers D/ST, GB	$0	11
+237. (K13)	Chris Boswell, PIT	$0	9
+238. (K14)	Chase McLaughlin, TB	$0	10
+239. (RB68)	Jaydon Blue, DAL	$0	14
+240. (RB69)	Kaytron Allen, WAS	$0	7
+241. (RB70)	Nicholas Singleton, TEN	$0	9
+242. (RB71)	Demond Claiborne, MIN	$0	6
+243. (RB72)	Adam Randall, BAL	$0	13
+244. (RB73)	Emmett Johnson, KC	$0	5
+245. (RB74)	LeQuint Allen, JAC	$0	7
+246. (RB75)	George Holani, SEA	$0	11
+247. (RB76)	Sean Tucker, TB	$0	10
+248. (RB77)	James Conner, ARI	$0	14
+249. (RB78)	Emari Demercado, KC	$0	5
+250. (RB79)	Chris Brooks, GB	$0	11
+251. (RB80)	DJ Giddens, IND	$0	13
+252. (WR91)	Isaac TeSlaa, DET	$0	6
+253. (WR92)	Pat Bryant, DEN	$0	10
+254. (DST15)	Jaguars D/ST, JAC	$0	7
+255. (DST16)	Colts D/ST, IND	$0	13
+256. (K15)	Evan McPherson, CIN	$0	6
+257. (K16)	Nick Folk, ATL	$0	11
+258. (TE27)	Greg Dulcich, MIA	$0	6
+259. (TE28)	Darren Waller, CAR	$0	5
+260. (TE29)	Cade Otton, TB	$0	10
+261. (WR93)	Marvin Mims Jr., DEN	$0	10
+262. (WR94)	KaVontae Turpin, DAL	$0	14
+263. (WR95)	Xavier Hutchinson, HOU	$0	8
+264. (WR96)	Jack Bech, LV	$0	13
+265. (RB81)	Emanuel Wilson, SEA	$0	11
+266. (RB82)	Will Shipley, PHI	$0	10
+267. (QB28)	Geno Smith, NYJ	$0	13
+268. (QB29)	Fernando Mendoza, LV	$0	13
+269. (QB30)	Aaron Rodgers, PIT	$0	9
+270. (QB31)	Deshaun Watson, CLE	$0	11
+271. (WR97)	Tory Horton, SEA	$0	11
+272. (WR98)	Ted Hurst, TB	$0	10
+273. (WR99)	Darnell Mooney, NYG	$0	8
+274. (WR100)	DeMario Douglas, NE	$0	11
+275. (WR101)	Savion Williams, GB	$0	11
+276. (RB83)	Phil Mafah, DAL	$0	14
+277. (RB84)	Najee Harris, NYG	$0	8
+278. (RB85)	Tahj Brooks, CIN	$0	6
+279. (RB86)	Trevor Etienne, CAR	$0	5
+280. (RB87)	Seth McGowan, IND	$0	13
+281. (RB88)	Kendre Miller, NO	$0	8
+282. (RB89)	Jawhar Jordan, HOU	$0	8
+283. (RB90)	Kaleb Johnson, PIT	$0	9
+284. (WR102)	Malachi Fields, NYG	$0	8
+285. (DST17)	Bengals D/ST, CIN	$0	6
+286. (DST18)	Bears D/ST, CHI	$0	10
+287. (K17)	Trey Smack, GB	$0	11
+288. (K18)	Jake Elliott, PHI	$0	10
+289. (TE30)	Evan Engram, DEN	$0	10
+290. (TE31)	David Njoku, LAC	$0	7
+291. (TE32)	Oronde Gadsden, LAC	$0	7
+292. (TE33)	Mike Gesicki, CIN	$0	6
+293. (TE34)	Michael Mayer, LV	$0	13
+294. (WR103)	Andrei Iosivas, CIN	$0	6
+295. (WR104)	Tutu Atwell, MIA	$0	6
+296. (QB32)	Tua Tagovailoa, ATL	$0	11
+297. (DST19)	49ers D/ST, SF	$0	8
+298. (DST20)	Jets D/ST, NYJ	$0	13
+299. (DST21)	Saints D/ST, NO	$0	8
+300. (DST22)	Vikings D/ST, MIN	$0	6`;
 const regex = /(\d+)\.\s*\(([A-Z]+)(\d+)\)\s+([^,]+),\s+([A-Z]+)\s+\$(\d+)\s+(\d+)/g;
 const matches = [...data.matchAll(regex)];
 const players = [];
@@ -307,4398 +307,1982 @@ const players = [];
 
 const lastYearQbs = [
     {
-        "name": "Lamar Jackson",
-        "value": "434.4"
-    },
-    {
         "name": "Josh Allen",
-        "value": "385.1"
-    },
-    {
-        "name": "Joe Burrow",
-        "value": "381.9"
-    },
-    {
-        "name": "Baker Mayfield",
-        "value": "381.8"
-    },
-    {
-        "name": "Jayden Daniels",
-        "value": "364.7"
-    },
-    {
-        "name": "Jared Goff",
-        "value": "336.5"
-    },
-    {
-        "name": "Bo Nix",
-        "value": "329.1"
-    },
-    {
-        "name": "Jalen Hurts",
-        "value": "320.0"
-    },
-    {
-        "name": "Sam Darnold",
-        "value": "319.8"
-    },
-    {
-        "name": "Kyler Murray",
-        "value": "308.4"
-    },
-    {
-        "name": "Patrick Mahomes II",
-        "value": "293.9"
-    },
-    {
-        "name": "Justin Herbert",
-        "value": "288.6"
-    },
-    {
-        "name": "Geno Smith",
-        "value": "281.1"
-    },
-    {
-        "name": "Brock Purdy",
-        "value": "279.0"
-    },
-    {
-        "name": "Aaron Rodgers",
-        "value": "267.6"
-    },
-    {
-        "name": "Caleb Williams",
-        "value": "260.5"
-    },
-    {
-        "name": "Jordan Love",
-        "value": "244.9"
-    },
-    {
-        "name": "C.J. Stroud",
-        "value": "232.4"
-    },
-    {
-        "name": "Matthew Stafford",
-        "value": "222.6"
-    },
-    {
-        "name": "Bryce Young",
-        "value": "203.8"
-    },
-    {
-        "name": "Kirk Cousins",
-        "value": "192.3"
-    },
-    {
-        "name": "Tua Tagovailoa",
-        "value": "188.5"
+        "value": "364.6"
     },
     {
         "name": "Drake Maye",
-        "value": "187.1"
+        "value": "352.0"
     },
     {
-        "name": "Russell Wilson",
-        "value": "177.8"
-    },
-    {
-        "name": "Anthony Richardson Sr.",
-        "value": "175.5"
-    },
-    {
-        "name": "Derek Carr",
-        "value": "156.0"
+        "name": "Matthew Stafford",
+        "value": "350.4"
     },
     {
         "name": "Trevor Lawrence",
-        "value": "152.2"
+        "value": "338.2"
     },
     {
-        "name": "Jameis Winston",
-        "value": "143.2"
-    },
-    {
-        "name": "Daniel Jones",
-        "value": "142.3"
-    },
-    {
-        "name": "Will Levis",
-        "value": "132.0"
+        "name": "Caleb Williams",
+        "value": "318.7"
     },
     {
         "name": "Dak Prescott",
-        "value": "124.5"
+        "value": "313.8"
     },
     {
-        "name": "Justin Fields",
-        "value": "120.1"
+        "name": "Bo Nix",
+        "value": "304.8"
     },
     {
-        "name": "Cooper Rush",
-        "value": "114.6"
+        "name": "Jalen Hurts",
+        "value": "299.1"
     },
     {
-        "name": "Gardner Minshew II",
-        "value": "106.5"
+        "name": "Jared Goff",
+        "value": "297.1"
     },
     {
-        "name": "Joe Flacco",
-        "value": "106.2"
+        "name": "Justin Herbert",
+        "value": "286.9"
     },
     {
-        "name": "Mason Rudolph",
-        "value": "104.8"
+        "name": "Patrick Mahomes",
+        "value": "285.7"
     },
     {
-        "name": "Mac Jones",
-        "value": "104.1"
-    },
-    {
-        "name": "Aidan O'Connell",
-        "value": "97.7"
-    },
-    {
-        "name": "Drew Lock",
-        "value": "85.1"
-    },
-    {
-        "name": "Deshaun Watson",
-        "value": "79.6"
-    },
-    {
-        "name": "Spencer Rattler",
-        "value": "72.2"
-    },
-    {
-        "name": "Andy Dalton",
-        "value": "64.9"
-    },
-    {
-        "name": "Tyler Huntley",
-        "value": "63.7"
-    },
-    {
-        "name": "Malik Willis",
-        "value": "51.8"
-    },
-    {
-        "name": "Michael Penix Jr.",
-        "value": "47.2"
-    },
-    {
-        "name": "Jacoby Brissett",
-        "value": "46.2"
-    },
-    {
-        "name": "Marcus Mariota",
-        "value": "45.7"
-    },
-    {
-        "name": "Joshua Dobbs",
-        "value": "32.8"
-    },
-    {
-        "name": "Tanner McKee",
-        "value": "28.9"
-    },
-    {
-        "name": "Kenny Pickett",
-        "value": "26.1"
-    },
-    {
-        "name": "Desmond Ridder",
-        "value": "23.9"
-    },
-    {
-        "name": "Dorian Thompson-Robinson",
-        "value": "21.8"
-    },
-    {
-        "name": "Jimmy Garoppolo",
-        "value": "20.9"
-    },
-    {
-        "name": "Tyrod Taylor",
-        "value": "20.0"
-    },
-    {
-        "name": "Joe Milton III",
-        "value": "19.2"
-    },
-    {
-        "name": "Mitchell Trubisky",
-        "value": "15.3"
-    },
-    {
-        "name": "Tim Boyle",
-        "value": "15.0"
-    },
-    {
-        "name": "Jake Haener",
-        "value": "14.3"
-    },
-    {
-        "name": "Trey Lance",
-        "value": "13.7"
-    },
-    {
-        "name": "Tommy DeVito",
-        "value": "13.5"
-    },
-    {
-        "name": "Davis Mills",
-        "value": "9.6"
-    },
-    {
-        "name": "Bailey Zappe",
-        "value": "9.0"
-    },
-    {
-        "name": "Brandon Allen",
-        "value": "8.4"
-    },
-    {
-        "name": "Skylar Thompson",
-        "value": "7.9"
-    },
-    {
-        "name": "Carson Wentz",
-        "value": "4.7"
-    },
-    {
-        "name": "Taylor Heinicke",
-        "value": "3.2"
-    },
-    {
-        "name": "Hendon Hooker",
-        "value": "2.7"
-    },
-    {
-        "name": "Feleipe Franks",
-        "value": "2.2"
-    },
-    {
-        "name": "Nick Mullens",
-        "value": "1.4"
-    },
-    {
-        "name": "Mike White",
-        "value": "1.1"
-    },
-    {
-        "name": "Kyle Allen",
-        "value": "0.8"
-    },
-    {
-        "name": "Josh Johnson",
-        "value": "0.7"
-    },
-    {
-        "name": "Jarrett Stidham",
-        "value": "0.5"
-    },
-    {
-        "name": "Chris Oladokun",
-        "value": "0.5"
-    },
-    {
-        "name": "Sam Howell",
-        "value": "0.2"
-    },
-    {
-        "name": "Kyle McCord",
-        "value": "0"
-    },
-    {
-        "name": "J.J. McCarthy",
-        "value": "0"
-    },
-    {
-        "name": "Emory Jones",
-        "value": "0.0"
-    },
-    {
-        "name": "Malik Cunningham",
-        "value": "0"
-    },
-    {
-        "name": "Zach Wilson",
-        "value": "0"
-    },
-    {
-        "name": "Adrian Martinez",
-        "value": "0"
-    },
-    {
-        "name": "DJ Uiagalelei",
-        "value": "0"
-    },
-    {
-        "name": "Jalen Milroe",
-        "value": "0"
-    },
-    {
-        "name": "Sean Clifford",
-        "value": "0"
-    },
-    {
-        "name": "Tyler Shough",
-        "value": "0"
-    },
-    {
-        "name": "John Rhys Plumlee",
-        "value": "0"
-    },
-    {
-        "name": "Jack Plummer",
-        "value": "0"
-    },
-    {
-        "name": "Jason Bean",
-        "value": "0"
-    },
-    {
-        "name": "Shedeur Sanders",
-        "value": "0"
-    },
-    {
-        "name": "Will Howard",
-        "value": "0"
-    },
-    {
-        "name": "Carter Bradley",
-        "value": "0"
-    },
-    {
-        "name": "Austin Reed",
-        "value": "0.0"
-    },
-    {
-        "name": "Kurtis Rourke",
-        "value": "0"
-    },
-    {
-        "name": "Brady Cook",
-        "value": "0"
-    },
-    {
-        "name": "Connor Bazelak",
-        "value": "0"
-    },
-    {
-        "name": "Taylor Elgersma",
-        "value": "0"
-    },
-    {
-        "name": "Payton Thorne",
-        "value": "0"
-    },
-    {
-        "name": "Garrett Greene",
-        "value": "0"
-    },
-    {
-        "name": "Tommy Mellott",
-        "value": "0"
-    },
-    {
-        "name": "Max Brosmer",
-        "value": "0"
-    },
-    {
-        "name": "Ben Wooldridge",
-        "value": "0"
-    },
-    {
-        "name": "Hunter Dekkers",
-        "value": "0"
-    },
-    {
-        "name": "Cam Miller",
-        "value": "0"
-    },
-    {
-        "name": "Dresser Winn",
-        "value": "0"
-    },
-    {
-        "name": "Quinn Ewers",
-        "value": "0"
-    },
-    {
-        "name": "Stetson Bennett IV",
-        "value": "0"
-    },
-    {
-        "name": "Jaren Hall",
-        "value": "0.0"
-    },
-    {
-        "name": "Sam Hartman",
-        "value": "0.0"
-    },
-    {
-        "name": "Dillon Gabriel",
-        "value": "0"
+        "name": "Baker Mayfield",
+        "value": "271.9"
     },
     {
         "name": "Jaxson Dart",
-        "value": "0"
+        "value": "241.6"
     },
     {
-        "name": "Kedon Slovis",
-        "value": "0"
+        "name": "Sam Darnold",
+        "value": "235.4"
     },
     {
-        "name": "Graham Mertz",
-        "value": "0"
+        "name": "Jordan Love",
+        "value": "235.1"
     },
     {
-        "name": "Michael Pratt",
-        "value": "0"
+        "name": "Jacoby Brissett",
+        "value": "227.4"
     },
     {
-        "name": "Tanner Mordecai",
-        "value": "0"
+        "name": "Aaron Rodgers",
+        "value": "227.1"
     },
     {
-        "name": "Seth Henigan",
-        "value": "0"
+        "name": "Daniel Jones",
+        "value": "226.4"
     },
     {
-        "name": "Riley Leonard",
-        "value": "0"
+        "name": "Bryce Young",
+        "value": "218.0"
     },
     {
-        "name": "Jordan Travis",
-        "value": "0.0"
+        "name": "Lamar Jackson",
+        "value": "214.9"
     },
     {
-        "name": "Devin Leary",
-        "value": "0"
+        "name": "C.J. Stroud",
+        "value": "208.5"
     },
     {
-        "name": "Cameron Ward",
-        "value": "0"
+        "name": "Cam Ward",
+        "value": "186.7"
     },
     {
-        "name": "Ben Chappell",
-        "value": "0"
+        "name": "Brock Purdy",
+        "value": "177.4"
     },
     {
-        "name": "Adam Froman",
-        "value": "0"
+        "name": "Geno Smith",
+        "value": "173.9"
     },
     {
-        "name": "Erik Ainge",
-        "value": "0"
+        "name": "Tua Tagovailoa",
+        "value": "160.7"
     },
     {
-        "name": "Hunter Cantwell",
-        "value": "0"
+        "name": "Tyler Shough",
+        "value": "158.0"
     },
     {
-        "name": "Teddy Bridgewater",
-        "value": "0"
+        "name": "Joe Flacco",
+        "value": "146.7"
     },
     {
-        "name": "Case Keenum",
-        "value": "0"
+        "name": "Justin Fields",
+        "value": "142.7"
     },
     {
-        "name": "Sam Ehlinger",
-        "value": "0"
+        "name": "Joe Burrow",
+        "value": "134.5"
     },
     {
-        "name": "John Wolford",
-        "value": "0"
+        "name": "Mac Jones",
+        "value": "130.0"
     },
     {
-        "name": "Will Grier",
-        "value": "0"
+        "name": "Marcus Mariota",
+        "value": "125.5"
     },
     {
-        "name": "Brett Rypien",
-        "value": "0"
+        "name": "J.J. McCarthy",
+        "value": "125.4"
     },
     {
-        "name": "Logan Woodside",
-        "value": "0"
+        "name": "Michael Penix",
+        "value": "120.3"
     },
     {
-        "name": "Brett Smith",
-        "value": "0"
+        "name": "Jayden Daniels",
+        "value": "114.3"
     },
     {
-        "name": "Jake Luton",
-        "value": "0.0"
+        "name": "Kirk Cousins",
+        "value": "103.5"
     },
     {
-        "name": "Shane Buechele",
-        "value": "0"
+        "name": "Spencer Rattler",
+        "value": "99.1"
     },
     {
-        "name": "Easton Stick",
-        "value": "0"
+        "name": "Shedeur Sanders",
+        "value": "84.9"
     },
     {
-        "name": "Trevor Siemian",
-        "value": "0.0"
+        "name": "Kyler Murray",
+        "value": "77.8"
     },
     {
-        "name": "C.J. Beathard",
-        "value": "0.0"
+        "name": "Carson Wentz",
+        "value": "70.3"
     },
     {
-        "name": "Jeff Driskel",
-        "value": "0.0"
+        "name": "Dillon Gabriel",
+        "value": "70.1"
+    },
+    {
+        "name": "Davis Mills",
+        "value": "68.6"
+    },
+    {
+        "name": "Tyrod Taylor",
+        "value": "59.5"
+    },
+    {
+        "name": "Malik Willis",
+        "value": "51.2"
+    },
+    {
+        "name": "Russell Wilson",
+        "value": "49.8"
     },
     {
         "name": "Jake Browning",
-        "value": "-0.2"
+        "value": "48.7"
     },
     {
-        "name": "Kyle Trask",
-        "value": "-0.2"
+        "name": "Jameis Winston",
+        "value": "43.3"
+    },
+    {
+        "name": "Tyler Huntley",
+        "value": "40.1"
+    },
+    {
+        "name": "Quinn Ewers",
+        "value": "33.2"
+    },
+    {
+        "name": "Philip Rivers",
+        "value": "31.7"
+    },
+    {
+        "name": "Mitchell Trubisky",
+        "value": "31.1"
+    },
+    {
+        "name": "Riley Leonard",
+        "value": "29.0"
+    },
+    {
+        "name": "Brady Cook",
+        "value": "28.5"
+    },
+    {
+        "name": "Josh Johnson",
+        "value": "24.4"
+    },
+    {
+        "name": "Mason Rudolph",
+        "value": "15.0"
+    },
+    {
+        "name": "Tanner McKee",
+        "value": "13.8"
+    },
+    {
+        "name": "Trey Lance",
+        "value": "13.5"
+    },
+    {
+        "name": "Chris Oladokun",
+        "value": "11.2"
+    },
+    {
+        "name": "Joe Milton",
+        "value": "10.3"
+    },
+    {
+        "name": "Andy Dalton",
+        "value": "9.5"
+    },
+    {
+        "name": "Kenny Pickett",
+        "value": "7.7"
+    },
+    {
+        "name": "Aidan O'Connell",
+        "value": "4.8"
+    },
+    {
+        "name": "Max Brosmer",
+        "value": "4.2"
+    },
+    {
+        "name": "Shane Buechele",
+        "value": "3.9"
+    },
+    {
+        "name": "Teddy Bridgewater",
+        "value": "2.9"
     },
     {
         "name": "Tyson Bagent",
-        "value": "-0.3"
+        "value": "2.6"
     },
     {
-        "name": "Clayton Tune",
-        "value": "-2.1"
+        "name": "Joshua Dobbs",
+        "value": "2.1"
     }
 ]
 const lastYearRbs = [
     {
-        "name": "Jahmyr Gibbs",
-        "value": "362.9"
-    },
-    {
-        "name": "Saquon Barkley",
-        "value": "355.3"
+        "name": "Christian McCaffrey",
+        "value": "416.6"
     },
     {
         "name": "Bijan Robinson",
-        "value": "341.7"
+        "value": "370.8"
     },
     {
-        "name": "Derrick Henry",
-        "value": "336.4"
-    },
-    {
-        "name": "De'Von Achane",
-        "value": "299.9"
-    },
-    {
-        "name": "Josh Jacobs",
-        "value": "293.1"
-    },
-    {
-        "name": "Kyren Williams",
-        "value": "272.1"
-    },
-    {
-        "name": "James Cook",
-        "value": "266.7"
-    },
-    {
-        "name": "Alvin Kamara",
-        "value": "265.3"
-    },
-    {
-        "name": "Chase Brown",
-        "value": "255.0"
-    },
-    {
-        "name": "James Conner",
-        "value": "253.8"
+        "name": "Jahmyr Gibbs",
+        "value": "366.9"
     },
     {
         "name": "Jonathan Taylor",
-        "value": "244.7"
+        "value": "362.3"
     },
     {
-        "name": "Bucky Irving",
-        "value": "244.4"
+        "name": "De'Von Achane",
+        "value": "322.8"
     },
     {
-        "name": "Aaron Jones Sr.",
-        "value": "241.6"
+        "name": "James Cook",
+        "value": "302.2"
     },
     {
-        "name": "Chuba Hubbard",
-        "value": "241.6"
+        "name": "Chase Brown",
+        "value": "282.6"
     },
     {
-        "name": "Breece Hall",
-        "value": "240.9"
+        "name": "Derrick Henry",
+        "value": "279.5"
     },
     {
-        "name": "Joe Mixon",
-        "value": "240.5"
+        "name": "Kyren Williams",
+        "value": "263.3"
     },
     {
-        "name": "David Montgomery",
-        "value": "221.7"
-    },
-    {
-        "name": "D'Andre Swift",
-        "value": "214.5"
-    },
-    {
-        "name": "Najee Harris",
-        "value": "204.6"
-    },
-    {
-        "name": "Tony Pollard",
-        "value": "200.7"
-    },
-    {
-        "name": "Rachaad White",
-        "value": "199.6"
-    },
-    {
-        "name": "Rico Dowdle",
-        "value": "197.8"
-    },
-    {
-        "name": "J.K. Dobbins",
-        "value": "191.8"
-    },
-    {
-        "name": "Zach Charbonnet",
-        "value": "186.9"
-    },
-    {
-        "name": "Tyrone Tracy Jr.",
-        "value": "182.3"
-    },
-    {
-        "name": "Kenneth Walker III",
-        "value": "181.2"
-    },
-    {
-        "name": "Rhamondre Stevenson",
-        "value": "175.9"
-    },
-    {
-        "name": "Brian Robinson Jr.",
-        "value": "159.8"
-    },
-    {
-        "name": "Javonte Williams",
-        "value": "157.9"
-    },
-    {
-        "name": "Kareem Hunt",
-        "value": "155.4"
-    },
-    {
-        "name": "Alexander Mattison",
-        "value": "137.4"
-    },
-    {
-        "name": "Jerome Ford",
-        "value": "134.0"
-    },
-    {
-        "name": "Austin Ekeler",
-        "value": "132.3"
-    },
-    {
-        "name": "Travis Etienne Jr.",
-        "value": "130.2"
-    },
-    {
-        "name": "Tank Bigsby",
-        "value": "129.0"
-    },
-    {
-        "name": "Justice Hill",
-        "value": "127.1"
-    },
-    {
-        "name": "Ameer Abdullah",
-        "value": "125.2"
-    },
-    {
-        "name": "Jaylen Warren",
-        "value": "124.1"
-    },
-    {
-        "name": "Ray Davis",
-        "value": "116.1"
-    },
-    {
-        "name": "Jordan Mason",
-        "value": "115.0"
-    },
-    {
-        "name": "Tyjae Spears",
-        "value": "113.6"
-    },
-    {
-        "name": "Tyler Allgeier",
-        "value": "106.2"
-    },
-    {
-        "name": "Antonio Gibson",
-        "value": "103.4"
-    },
-    {
-        "name": "Jaleel McLaughlin",
-        "value": "97.2"
-    },
-    {
-        "name": "Devin Singletary",
-        "value": "96.6"
-    },
-    {
-        "name": "Emanuel Wilson",
-        "value": "96.0"
-    },
-    {
-        "name": "Isaac Guerendo",
-        "value": "94.2"
-    },
-    {
-        "name": "Cam Akers",
-        "value": "93.2"
-    },
-    {
-        "name": "Ty Johnson",
-        "value": "91.7"
-    },
-    {
-        "name": "Braelon Allen",
-        "value": "85.2"
-    },
-    {
-        "name": "Zack Moss",
-        "value": "81.9"
-    },
-    {
-        "name": "Samaje Perine",
-        "value": "81.4"
-    },
-    {
-        "name": "Roschon Johnson",
-        "value": "77.4"
-    },
-    {
-        "name": "Miles Sanders",
-        "value": "77.3"
-    },
-    {
-        "name": "Raheem Mostert",
-        "value": "70.9"
-    },
-    {
-        "name": "Sean Tucker",
-        "value": "68.7"
-    },
-    {
-        "name": "Gus Edwards",
-        "value": "64.1"
-    },
-    {
-        "name": "Jeremy McNichols",
-        "value": "63.8"
-    },
-    {
-        "name": "Nick Chubb",
-        "value": "63.3"
-    },
-    {
-        "name": "Kenneth Gainwell",
-        "value": "62.6"
-    },
-    {
-        "name": "Kyle Juszczyk",
-        "value": "57.6"
-    },
-    {
-        "name": "Ezekiel Elliott",
-        "value": "57.5"
-    },
-    {
-        "name": "Isiah Pacheco",
-        "value": "56.9"
-    },
-    {
-        "name": "Dare Ogunbowale",
-        "value": "56.0"
-    },
-    {
-        "name": "Emari Demercado",
-        "value": "54.7"
-    },
-    {
-        "name": "Trey Sermon",
-        "value": "53.8"
-    },
-    {
-        "name": "Audric Estime",
-        "value": "48.7"
-    },
-    {
-        "name": "Christian McCaffrey",
-        "value": "47.8"
-    },
-    {
-        "name": "Trey Benson",
-        "value": "47.0"
-    },
-    {
-        "name": "Isaiah Davis",
-        "value": "45.9"
-    },
-    {
-        "name": "Tyler Goodson",
-        "value": "44.4"
-    },
-    {
-        "name": "Dameon Pierce",
-        "value": "43.5"
-    },
-    {
-        "name": "Chris Brooks",
-        "value": "42.2"
-    },
-    {
-        "name": "Cordarrelle Patterson",
-        "value": "37.5"
-    },
-    {
-        "name": "Jamaal Williams",
-        "value": "37.1"
-    },
-    {
-        "name": "D'Ernest Johnson",
-        "value": "35.9"
-    },
-    {
-        "name": "Michael Carter",
-        "value": "35.8"
-    },
-    {
-        "name": "Pierre Strong Jr.",
-        "value": "35.2"
-    },
-    {
-        "name": "Blake Corum",
-        "value": "33.5"
-    },
-    {
-        "name": "Hassan Haskins",
-        "value": "32.8"
-    },
-    {
-        "name": "Kimani Vidal",
-        "value": "32.7"
-    },
-    {
-        "name": "D'Onta Foreman",
-        "value": "32.6"
-    },
-    {
-        "name": "Khalil Herbert",
-        "value": "31.5"
-    },
-    {
-        "name": "Chris Rodriguez Jr.",
-        "value": "31.5"
-    },
-    {
-        "name": "Patrick Taylor Jr.",
-        "value": "29.8"
-    },
-    {
-        "name": "Michael Burton",
-        "value": "29.3"
-    },
-    {
-        "name": "Zamir White",
-        "value": "29.3"
-    },
-    {
-        "name": "Kendre Miller",
-        "value": "29.1"
-    },
-    {
-        "name": "JaMycal Hasty",
-        "value": "28.8"
-    },
-    {
-        "name": "Ty Chandler",
-        "value": "28.4"
-    },
-    {
-        "name": "Sincere McCormick",
-        "value": "27.2"
-    },
-    {
-        "name": "Hunter Luepke",
-        "value": "26.9"
-    },
-    {
-        "name": "Jaylen Wright",
-        "value": "26.7"
-    },
-    {
-        "name": "Alec Ingold",
-        "value": "26.3"
-    },
-    {
-        "name": "Jordan Mims",
-        "value": "26.1"
-    },
-    {
-        "name": "Carson Steele",
-        "value": "23.9"
-    },
-    {
-        "name": "Kenny McIntosh",
-        "value": "22.4"
-    },
-    {
-        "name": "DeeJay Dallas",
-        "value": "21.0"
-    },
-    {
-        "name": "Craig Reynolds",
-        "value": "20.9"
-    },
-    {
-        "name": "Ronnie Rivers",
-        "value": "18.3"
-    },
-    {
-        "name": "Eric Gray",
-        "value": "17.3"
-    },
-    {
-        "name": "Patrick Ricard",
-        "value": "17.2"
-    },
-    {
-        "name": "Will Shipley",
-        "value": "15.7"
-    },
-    {
-        "name": "C.J. Ham",
-        "value": "13.5"
-    },
-    {
-        "name": "Julius Chestnut",
-        "value": "13.3"
-    },
-    {
-        "name": "Deuce Vaughn",
-        "value": "11.8"
-    },
-    {
-        "name": "Tony Jones Jr.",
-        "value": "11.5"
-    },
-    {
-        "name": "Jeff Wilson Jr.",
-        "value": "10.6"
-    },
-    {
-        "name": "Clyde Edwards-Helaire",
-        "value": "10.0"
-    },
-    {
-        "name": "Tyler Badie",
-        "value": "9.4"
-    },
-    {
-        "name": "Sione Vaki",
-        "value": "8.1"
-    },
-    {
-        "name": "Raheem Blackshear",
-        "value": "8.0"
-    },
-    {
-        "name": "Jonathon Brooks",
-        "value": "7.5"
-    },
-    {
-        "name": "Keaton Mitchell",
-        "value": "6.8"
-    },
-    {
-        "name": "Travis Homer",
-        "value": "6.4"
-    },
-    {
-        "name": "J.J. Taylor",
-        "value": "6.4"
-    },
-    {
-        "name": "Kene Nwangwu",
-        "value": "6.0"
-    },
-    {
-        "name": "Mike Boone",
-        "value": "5.9"
-    },
-    {
-        "name": "Jacob Kibodi",
-        "value": "4.9"
-    },
-    {
-        "name": "Jermar Jefferson",
-        "value": "4.2"
-    },
-    {
-        "name": "Dalvin Cook",
-        "value": "4.0"
-    },
-    {
-        "name": "Blake Watson",
-        "value": "3.3"
-    },
-    {
-        "name": "Terrell Jennings",
-        "value": "3.3"
-    },
-    {
-        "name": "Jase McClellan",
-        "value": "3.2"
-    },
-    {
-        "name": "Rasheen Ali",
-        "value": "3.1"
-    },
-    {
-        "name": "MarShawn Lloyd",
-        "value": "2.8"
-    },
-    {
-        "name": "Jonathan Ward",
-        "value": "2.2"
-    },
-    {
-        "name": "Myles Gaskin",
-        "value": "2.0"
-    },
-    {
-        "name": "George Holani",
-        "value": "1.9"
-    },
-    {
-        "name": "Cody Schrader",
-        "value": "1.9"
-    },
-    {
-        "name": "Chris Collier",
-        "value": "1.8"
-    },
-    {
-        "name": "Aaron Shampklin",
-        "value": "1.7"
-    },
-    {
-        "name": "Tyreik McAllister",
-        "value": "1.1"
-    },
-    {
-        "name": "Reggie Gilliam",
-        "value": "0.7"
-    },
-    {
-        "name": "Tyrion Davis-Price",
-        "value": "0.7"
-    },
-    {
-        "name": "Ke'Shawn Vaughn",
-        "value": "0.4"
-    },
-    {
-        "name": "Darrynton Evans",
-        "value": "0.3"
-    },
-    {
-        "name": "British Brooks",
-        "value": "0.2"
-    },
-    {
-        "name": "Joshua Kelley",
-        "value": "0.2"
-    },
-    {
-        "name": "Tahj Brooks",
-        "value": "0"
-    },
-    {
-        "name": "Woody Marks",
-        "value": "0"
-    },
-    {
-        "name": "Ahmani Marshall",
-        "value": "0"
-    },
-    {
-        "name": "Elijah Young",
-        "value": "0"
-    },
-    {
-        "name": "Montrell Johnson Jr.",
-        "value": "0"
-    },
-    {
-        "name": "Nathan Carter",
-        "value": "0"
-    },
-    {
-        "name": "Amar Johnson",
-        "value": "0"
-    },
-    {
-        "name": "Robbie Ouzts",
-        "value": "0"
-    },
-    {
-        "name": "Lan Larison",
-        "value": "0"
-    },
-    {
-        "name": "Lucas Scott",
-        "value": "0"
-    },
-    {
-        "name": "Deion Hankins",
-        "value": "0"
-    },
-    {
-        "name": "Quali Conley",
-        "value": "0"
-    },
-    {
-        "name": "Rushawn Baker",
-        "value": "0"
-    },
-    {
-        "name": "ShunDerrick Powell",
-        "value": "0"
-    },
-    {
-        "name": "Max Hurleman",
-        "value": "0"
-    },
-    {
-        "name": "Toa Taua",
-        "value": "0"
-    },
-    {
-        "name": "La'Mical Perine",
-        "value": "0.0"
-    },
-    {
-        "name": "A.J. Dillon",
-        "value": "0"
-    },
-    {
-        "name": "DJ Thomas-Jones",
-        "value": "0"
-    },
-    {
-        "name": "Anthony Tyus III",
-        "value": "0"
-    },
-    {
-        "name": "Kye Robichaux",
-        "value": "0"
-    },
-    {
-        "name": "Jalen White",
-        "value": "0"
-    },
-    {
-        "name": "Salvon Ahmed",
-        "value": "0"
-    },
-    {
-        "name": "Kayron Lynch-Adams",
-        "value": "0"
-    },
-    {
-        "name": "Jacardia Wright",
-        "value": "0"
-    },
-    {
-        "name": "Brock Lampe",
-        "value": "0"
-    },
-    {
-        "name": "Tre Stewart",
-        "value": "0"
-    },
-    {
-        "name": "Josh Williams",
-        "value": "0"
-    },
-    {
-        "name": "Jaret Patterson",
-        "value": "0"
-    },
-    {
-        "name": "Demetric Felton Jr.",
-        "value": "0"
-    },
-    {
-        "name": "Zonovan Knight",
-        "value": "0"
-    },
-    {
-        "name": "Troy Hairston II",
-        "value": "0.0"
-    },
-    {
-        "name": "Ian Wheeler",
-        "value": "0"
-    },
-    {
-        "name": "Dante Miller",
-        "value": "0.0"
-    },
-    {
-        "name": "Evan Hull",
-        "value": "0"
-    },
-    {
-        "name": "Colson Yankoff",
-        "value": "0.0"
-    },
-    {
-        "name": "Nay'Quan Wright",
-        "value": "0"
-    },
-    {
-        "name": "Jarquez Hunter",
-        "value": "0"
-    },
-    {
-        "name": "Velus Jones Jr.",
-        "value": "0.0"
-    },
-    {
-        "name": "Malik Davis",
-        "value": "0"
-    },
-    {
-        "name": "Jaydon Blue",
-        "value": "0"
-    },
-    {
-        "name": "Jabari Small",
-        "value": "0.0"
-    },
-    {
-        "name": "Israel Abanikanda",
-        "value": "0"
-    },
-    {
-        "name": "Raheim Sanders",
-        "value": "0"
-    },
-    {
-        "name": "Frank Gore Jr.",
-        "value": "0"
-    },
-    {
-        "name": "Jawhar Jordan",
-        "value": "0"
-    },
-    {
-        "name": "Damien Martinez",
-        "value": "0"
-    },
-    {
-        "name": "Emani Bailey",
-        "value": "0"
-    },
-    {
-        "name": "Owen Wright",
-        "value": "0"
-    },
-    {
-        "name": "Zavier Scott",
-        "value": "0"
-    },
-    {
-        "name": "Brady Russell",
-        "value": "0.0"
-    },
-    {
-        "name": "Ollie Gordon II",
-        "value": "0"
+        "name": "Travis Etienne",
+        "value": "253.9"
     },
     {
         "name": "Ashton Jeanty",
-        "value": "0"
+        "value": "245.1"
     },
     {
-        "name": "Ben VanSumeren",
-        "value": "0.0"
+        "name": "Javonte Williams",
+        "value": "242.8"
     },
     {
-        "name": "Omarion Hampton",
-        "value": "0"
+        "name": "Josh Jacobs",
+        "value": "237.1"
     },
     {
-        "name": "Lew Nichols III",
-        "value": "0"
+        "name": "Saquon Barkley",
+        "value": "232.3"
     },
     {
-        "name": "Trevor Etienne",
-        "value": "0"
+        "name": "D'Andre Swift",
+        "value": "228.6"
     },
     {
-        "name": "Quinshon Judkins",
-        "value": "0"
+        "name": "Kenneth Gainwell",
+        "value": "221.3"
     },
     {
-        "name": "Jacob Saylors",
-        "value": "0"
+        "name": "Jaylen Warren",
+        "value": "217.1"
     },
     {
-        "name": "Jordan Waters",
-        "value": "0"
+        "name": "Rico Dowdle",
+        "value": "216.3"
     },
     {
-        "name": "Carlos Washington Jr.",
-        "value": "0"
-    },
-    {
-        "name": "Kazmeir Allen",
-        "value": "0.0"
-    },
-    {
-        "name": "Scott Matlock",
-        "value": "0.0"
-    },
-    {
-        "name": "Elijah Dotson",
-        "value": "0"
-    },
-    {
-        "name": "Jashaun Corbin",
-        "value": "0"
-    },
-    {
-        "name": "Marcus Yarns",
-        "value": "0"
-    },
-    {
-        "name": "Bhayshul Tuten",
-        "value": "0"
-    },
-    {
-        "name": "Jordan James",
-        "value": "0"
-    },
-    {
-        "name": "Kendall Milton",
-        "value": "0.0"
-    },
-    {
-        "name": "Jacory Croskey-Merritt",
-        "value": "0"
-    },
-    {
-        "name": "Lawrance Toafili",
-        "value": "0"
-    },
-    {
-        "name": "LeQuint Allen Jr.",
-        "value": "0"
-    },
-    {
-        "name": "Phil Mafah",
-        "value": "0"
-    },
-    {
-        "name": "D.J. Williams",
-        "value": "0.0"
-    },
-    {
-        "name": "Nate Noel",
-        "value": "0"
-    },
-    {
-        "name": "Donovan Edwards",
-        "value": "0"
+        "name": "Breece Hall",
+        "value": "207.7"
     },
     {
         "name": "RJ Harvey",
-        "value": "0"
-    },
-    {
-        "name": "Kaleb Johnson",
-        "value": "0"
-    },
-    {
-        "name": "Cam Skattebo",
-        "value": "0"
-    },
-    {
-        "name": "Brashard Smith",
-        "value": "0"
-    },
-    {
-        "name": "Corey Kiner",
-        "value": "0"
-    },
-    {
-        "name": "Kyle Monangai",
-        "value": "0"
-    },
-    {
-        "name": "Keilan Robinson",
-        "value": "0.0"
-    },
-    {
-        "name": "Elijah Mitchell",
-        "value": "0"
-    },
-    {
-        "name": "Javian Hawkins",
-        "value": "0"
-    },
-    {
-        "name": "Chris Tyree",
-        "value": "0"
-    },
-    {
-        "name": "Adam Prentice",
-        "value": "0.0"
-    },
-    {
-        "name": "Devin Neal",
-        "value": "0"
-    },
-    {
-        "name": "Gary Brightwell",
-        "value": "0.0"
-    },
-    {
-        "name": "Avery Williams",
-        "value": "0.0"
-    },
-    {
-        "name": "TreVeyon Henderson",
-        "value": "0"
-    },
-    {
-        "name": "Kalel Mullings",
-        "value": "0"
-    },
-    {
-        "name": "DJ Giddens",
-        "value": "0"
-    },
-    {
-        "name": "Ulysses Bentley IV",
-        "value": "0"
-    },
-    {
-        "name": "Marcus Major Jr.",
-        "value": "0"
-    },
-    {
-        "name": "Dylan Sampson",
-        "value": "0"
-    },
-    {
-        "name": "Ja'Quinden Jackson",
-        "value": "0"
-    },
-    {
-        "name": "Keaontay Ingram",
-        "value": "0.0"
-    },
-    {
-        "name": "Shane Bannon",
-        "value": "0"
-    },
-    {
-        "name": "Jay Finley",
-        "value": "0"
-    },
-    {
-        "name": "Willie Carter",
-        "value": "0"
-    },
-    {
-        "name": "Kenny Irons",
-        "value": "0"
-    },
-    {
-        "name": "Chad Simpson",
-        "value": "0"
-    },
-    {
-        "name": "Anthony Alridge",
-        "value": "0"
-    },
-    {
-        "name": "Dantrell Savage",
-        "value": "0"
-    },
-    {
-        "name": "Xavier Omon",
-        "value": "0"
-    },
-    {
-        "name": "Garrett Mills",
-        "value": "0"
-    },
-    {
-        "name": "Madison Hedgecock",
-        "value": "0"
-    },
-    {
-        "name": "Samkon Gado",
-        "value": "0"
-    },
-    {
-        "name": "John Kelly Jr.",
-        "value": "0.0"
-    },
-    {
-        "name": "Nyheim Miller-Hines",
-        "value": "0.0"
-    },
-    {
-        "name": "Taquan Mizzell",
-        "value": "0"
-    },
-    {
-        "name": "Trayveon Williams",
-        "value": "0.0"
-    },
-    {
-        "name": "Mike Weber",
-        "value": "0"
-    },
-    {
-        "name": "Andrew Beck",
-        "value": "0.0"
-    },
-    {
-        "name": "Khari Blasingame",
-        "value": "0.0"
-    },
-    {
-        "name": "Jakob Johnson",
-        "value": "0.0"
-    },
-    {
-        "name": "Brennan Clay",
-        "value": "0"
-    },
-    {
-        "name": "Tim Flanders",
-        "value": "0"
-    },
-    {
-        "name": "Dylan Laube",
-        "value": "-2.0"
-    }
-]
-const lastYearWrs=[
-    {
-        "name": "Ja'Marr Chase",
-        "value": "403.0"
-    },
-    {
-        "name": "Justin Jefferson",
-        "value": "317.5"
-    },
-    {
-        "name": "Amon-Ra St. Brown",
-        "value": "316.2"
-    },
-    {
-        "name": "Brian Thomas Jr.",
-        "value": "284.0"
-    },
-    {
-        "name": "Drake London",
-        "value": "280.8"
-    },
-    {
-        "name": "Malik Nabers",
-        "value": "273.6"
-    },
-    {
-        "name": "Terry McLaurin",
-        "value": "267.8"
-    },
-    {
-        "name": "CeeDee Lamb",
-        "value": "263.4"
-    },
-    {
-        "name": "Jaxon Smith-Njigba",
-        "value": "253.0"
-    },
-    {
-        "name": "Garrett Wilson",
-        "value": "251.9"
-    },
-    {
-        "name": "Davante Adams",
-        "value": "241.3"
-    },
-    {
-        "name": "Ladd McConkey",
-        "value": "240.9"
-    },
-    {
-        "name": "Jerry Jeudy",
-        "value": "240.9"
-    },
-    {
-        "name": "Mike Evans",
-        "value": "240.4"
-    },
-    {
-        "name": "Courtland Sutton",
-        "value": "240.3"
-    },
-    {
-        "name": "DJ Moore",
-        "value": "238.1"
-    },
-    {
-        "name": "Tee Higgins",
-        "value": "222.1"
-    },
-    {
-        "name": "Tyreek Hill",
-        "value": "218.2"
-    },
-    {
-        "name": "Jakobi Meyers",
-        "value": "218.0"
-    },
-    {
-        "name": "A.J. Brown",
-        "value": "216.9"
-    },
-    {
-        "name": "Jordan Addison",
-        "value": "212.5"
-    },
-    {
-        "name": "Jameson Williams",
-        "value": "212.2"
-    },
-    {
-        "name": "Nico Collins",
-        "value": "210.6"
-    },
-    {
-        "name": "Jauan Jennings",
-        "value": "210.5"
-    },
-    {
-        "name": "Zay Flowers",
-        "value": "209.5"
-    },
-    {
-        "name": "Puka Nacua",
         "value": "206.6"
     },
     {
-        "name": "DeVonta Smith",
-        "value": "199.4"
+        "name": "TreVeyon Henderson",
+        "value": "206.2"
     },
     {
-        "name": "Calvin Ridley",
-        "value": "199.2"
+        "name": "Kenneth Walker III",
+        "value": "191.9"
     },
     {
-        "name": "Jayden Reed",
-        "value": "197.0"
+        "name": "Tony Pollard",
+        "value": "185.8"
     },
     {
-        "name": "Marvin Harrison Jr.",
-        "value": "196.5"
+        "name": "Zach Charbonnet",
+        "value": "181.4"
     },
     {
-        "name": "Darnell Mooney",
-        "value": "193.2"
+        "name": "Rhamondre Stevenson",
+        "value": "178.8"
     },
     {
-        "name": "DK Metcalf",
-        "value": "191.2"
+        "name": "Quinshon Judkins",
+        "value": "169.8"
     },
     {
-        "name": "Xavier Worthy",
-        "value": "187.2"
+        "name": "David Montgomery",
+        "value": "166.9"
     },
     {
-        "name": "Keenan Allen",
-        "value": "185.4"
+        "name": "Tyrone Tracy Jr.",
+        "value": "160.8"
     },
     {
-        "name": "Josh Downs",
-        "value": "183.5"
+        "name": "Woody Marks",
+        "value": "151.1"
     },
     {
-        "name": "Wan'Dale Robinson",
-        "value": "182.7"
+        "name": "Kyle Monangai",
+        "value": "146.7"
     },
     {
-        "name": "Khalil Shakir",
-        "value": "182.5"
+        "name": "Kareem Hunt",
+        "value": "145.4"
     },
     {
-        "name": "Cooper Kupp",
-        "value": "175.0"
+        "name": "Rachaad White",
+        "value": "143.0"
     },
     {
-        "name": "Quentin Johnston",
-        "value": "174.7"
+        "name": "Jacory Croskey-Merritt",
+        "value": "140.3"
     },
     {
-        "name": "Rashod Bateman",
-        "value": "174.6"
+        "name": "Bucky Irving",
+        "value": "138.5"
     },
     {
-        "name": "Michael Pittman Jr.",
-        "value": "165.8"
-    },
-    {
-        "name": "George Pickens",
-        "value": "164.4"
-    },
-    {
-        "name": "Alec Pierce",
-        "value": "161.4"
-    },
-    {
-        "name": "Deebo Samuel Sr.",
-        "value": "153.6"
-    },
-    {
-        "name": "Jalen Tolbert",
-        "value": "152.0"
-    },
-    {
-        "name": "Jaylen Waddle",
-        "value": "149.6"
-    },
-    {
-        "name": "DeMario Douglas",
-        "value": "147.7"
-    },
-    {
-        "name": "DeAndre Hopkins",
-        "value": "147.0"
-    },
-    {
-        "name": "Rome Odunze",
-        "value": "144.9"
-    },
-    {
-        "name": "Ray-Ray McCloud III",
-        "value": "140.5"
-    },
-    {
-        "name": "Tank Dell",
-        "value": "140.0"
-    },
-    {
-        "name": "Adam Thielen",
-        "value": "139.5"
-    },
-    {
-        "name": "Chris Godwin",
-        "value": "137.8"
-    },
-    {
-        "name": "Nick Westbrook-Ikhine",
+        "name": "Omarion Hampton",
         "value": "135.7"
     },
     {
-        "name": "Jalen McMillan",
-        "value": "135.4"
+        "name": "Jordan Mason",
+        "value": "128.9"
     },
     {
-        "name": "Romeo Doubs",
-        "value": "132.1"
+        "name": "Cam Skattebo",
+        "value": "127.7"
     },
     {
-        "name": "Marvin Mims Jr.",
-        "value": "129.5"
+        "name": "Chuba Hubbard",
+        "value": "125.4"
     },
     {
-        "name": "Tre Tucker",
-        "value": "129.3"
+        "name": "Tyler Allgeier",
+        "value": "123.0"
     },
     {
-        "name": "Allen Lazard",
-        "value": "126.0"
+        "name": "Blake Corum",
+        "value": "122.2"
     },
     {
-        "name": "Xavier Legette",
-        "value": "125.1"
+        "name": "Aaron Jones",
+        "value": "118.7"
     },
     {
-        "name": "Michael Wilson",
-        "value": "124.5"
+        "name": "Kimani Vidal",
+        "value": "117.9"
     },
     {
-        "name": "Demarcus Robinson",
-        "value": "123.5"
+        "name": "J.K. Dobbins",
+        "value": "115.9"
     },
     {
-        "name": "Amari Cooper",
-        "value": "122.7"
+        "name": "Tyjae Spears",
+        "value": "111.7"
     },
     {
-        "name": "Kayshon Boutte",
-        "value": "121.9"
+        "name": "Devin Singletary",
+        "value": "108.8"
     },
     {
-        "name": "Stefon Diggs",
-        "value": "121.9"
+        "name": "Alvin Kamara",
+        "value": "100.7"
     },
     {
-        "name": "Tyler Lockett",
-        "value": "121.0"
+        "name": "Ty Johnson",
+        "value": "100.3"
     },
     {
-        "name": "Elijah Moore",
-        "value": "120.9"
+        "name": "Michael Carter",
+        "value": "99.0"
     },
     {
-        "name": "Andrei Iosivas",
-        "value": "119.9"
+        "name": "Emanuel Wilson",
+        "value": "94.5"
     },
     {
-        "name": "Calvin Austin III",
-        "value": "118.8"
+        "name": "Zonovan Knight",
+        "value": "92.9"
     },
     {
-        "name": "Olamide Zaccheaus",
-        "value": "112.4"
+        "name": "Chris Rodriguez",
+        "value": "92.0"
     },
     {
-        "name": "Keon Coleman",
-        "value": "111.5"
+        "name": "Sean Tucker",
+        "value": "91.4"
     },
     {
-        "name": "Dontayvion Wicks",
-        "value": "110.5"
+        "name": "Bhayshul Tuten",
+        "value": "88.6"
     },
     {
-        "name": "Darius Slayton",
-        "value": "110.0"
+        "name": "Nick Chubb",
+        "value": "88.3"
     },
     {
-        "name": "Joshua Palmer",
-        "value": "107.4"
+        "name": "Dylan Sampson",
+        "value": "87.6"
     },
     {
-        "name": "Devaughn Vele",
-        "value": "106.5"
+        "name": "Isiah Pacheco",
+        "value": "87.3"
     },
     {
-        "name": "Christian Watson",
-        "value": "105.3"
+        "name": "Samaje Perine",
+        "value": "77.9"
     },
     {
-        "name": "KaVontae Turpin",
-        "value": "104.2"
+        "name": "Jeremy McNichols",
+        "value": "72.7"
     },
     {
-        "name": "Jalen Nailor",
-        "value": "103.0"
+        "name": "Isaiah Davis",
+        "value": "71.2"
     },
     {
-        "name": "Tutu Atwell",
-        "value": "98.9"
+        "name": "Justice Hill",
+        "value": "65.2"
     },
     {
-        "name": "Mack Hollins",
-        "value": "98.8"
+        "name": "Ray Davis",
+        "value": "64.1"
     },
     {
-        "name": "Parker Washington",
-        "value": "97.0"
+        "name": "Brashard Smith",
+        "value": "63.3"
     },
     {
-        "name": "Ricky Pearsall",
-        "value": "93.5"
+        "name": "Brian Robinson Jr.",
+        "value": "62.5"
     },
     {
-        "name": "Jalen Coker",
-        "value": "92.6"
+        "name": "Devin Neal",
+        "value": "60.0"
     },
     {
-        "name": "Tim Patrick",
-        "value": "92.4"
+        "name": "Emari Demercado",
+        "value": "58.3"
     },
     {
-        "name": "Greg Dortch",
-        "value": "90.3"
-    },
-    {
-        "name": "Diontae Johnson",
-        "value": "89.1"
-    },
-    {
-        "name": "Noah Brown",
-        "value": "86.3"
-    },
-    {
-        "name": "David Moore",
-        "value": "85.1"
-    },
-    {
-        "name": "Marquez Valdes-Scantling",
-        "value": "84.5"
-    },
-    {
-        "name": "Cedric Tillman",
-        "value": "80.4"
-    },
-    {
-        "name": "Sterling Shepard",
-        "value": "80.3"
-    },
-    {
-        "name": "Rashid Shaheed",
-        "value": "79.8"
-    },
-    {
-        "name": "Tyler Boyd",
-        "value": "78.3"
-    },
-    {
-        "name": "Chris Olave",
-        "value": "76.7"
-    },
-    {
-        "name": "Christian Kirk",
-        "value": "70.9"
-    },
-    {
-        "name": "Brandin Cooks",
-        "value": "69.6"
-    },
-    {
-        "name": "Dyami Brown",
-        "value": "67.4"
-    },
-    {
-        "name": "Troy Franklin",
-        "value": "67.1"
-    },
-    {
-        "name": "Kendrick Bourne",
-        "value": "65.1"
-    },
-    {
-        "name": "Rashee Rice",
-        "value": "64.9"
-    },
-    {
-        "name": "Lil'Jordan Humphrey",
-        "value": "64.3"
-    },
-    {
-        "name": "Curtis Samuel",
-        "value": "63.7"
-    },
-    {
-        "name": "Van Jefferson",
-        "value": "63.6"
-    },
-    {
-        "name": "Justin Watson",
-        "value": "62.9"
-    },
-    {
-        "name": "Brandon Aiyuk",
-        "value": "62.4"
-    },
-    {
-        "name": "Tyler Johnson",
-        "value": "61.1"
-    },
-    {
-        "name": "Mike Williams",
-        "value": "56.8"
-    },
-    {
-        "name": "Kalif Raymond",
-        "value": "56.5"
-    },
-    {
-        "name": "John Metchie III",
+        "name": "Keaton Mitchell",
         "value": "55.4"
     },
     {
-        "name": "Malik Washington",
-        "value": "54.8"
+        "name": "Ollie Gordon",
+        "value": "54.1"
     },
     {
-        "name": "Gabe Davis",
-        "value": "53.9"
-    },
-    {
-        "name": "Adonai Mitchell",
+        "name": "Tank Bigsby",
         "value": "53.8"
     },
     {
-        "name": "JuJu Smith-Schuster",
-        "value": "53.1"
+        "name": "Jaylen Wright",
+        "value": "48.2"
     },
     {
-        "name": "Jordan Whittington",
-        "value": "52.5"
+        "name": "Audric Estime",
+        "value": "48.1"
     },
     {
-        "name": "Cedrick Wilson Jr.",
-        "value": "49.9"
+        "name": "Jerome Ford",
+        "value": "43.6"
     },
     {
-        "name": "Nelson Agholor",
-        "value": "49.1"
-    },
-    {
-        "name": "DJ Turner",
-        "value": "47.1"
-    },
-    {
-        "name": "Jahan Dotson",
-        "value": "41.9"
-    },
-    {
-        "name": "Derius Davis",
-        "value": "40.1"
-    },
-    {
-        "name": "Josh Reynolds",
-        "value": "38.4"
-    },
-    {
-        "name": "Robert Woods",
-        "value": "38.3"
-    },
-    {
-        "name": "Ryan Miller",
-        "value": "36.8"
-    },
-    {
-        "name": "Tylan Wallace",
-        "value": "36.3"
-    },
-    {
-        "name": "Jalen Brooks",
-        "value": "35.7"
-    },
-    {
-        "name": "Trey Palmer",
-        "value": "35.2"
-    },
-    {
-        "name": "Luke McCaffrey",
-        "value": "34.8"
-    },
-    {
-        "name": "Mecole Hardman Jr.",
-        "value": "33.2"
-    },
-    {
-        "name": "Ja'Lynn Polk",
-        "value": "32.7"
-    },
-    {
-        "name": "Jonathan Mingo",
-        "value": "32.2"
-    },
-    {
-        "name": "KhaDarel Hodge",
-        "value": "32.1"
-    },
-    {
-        "name": "Dante Pettis",
-        "value": "32.0"
-    },
-    {
-        "name": "Malik Heath",
-        "value": "31.7"
-    },
-    {
-        "name": "Jake Bobo",
-        "value": "29.7"
-    },
-    {
-        "name": "Kevin Austin Jr.",
-        "value": "27.0"
-    },
-    {
-        "name": "Bub Means",
-        "value": "26.8"
-    },
-    {
-        "name": "Jamison Crowder",
-        "value": "26.2"
-    },
-    {
-        "name": "Mason Tipton",
-        "value": "23.9"
-    },
-    {
-        "name": "Xavier Hutchinson",
-        "value": "23.7"
-    },
-    {
-        "name": "Bo Melton",
-        "value": "22.5"
-    },
-    {
-        "name": "Trent Sherfield Sr.",
-        "value": "22.3"
-    },
-    {
-        "name": "Rakim Jarrett",
-        "value": "21.4"
-    },
-    {
-        "name": "Devin Duvernay",
-        "value": "19.2"
-    },
-    {
-        "name": "Ashton Dulin",
-        "value": "19.2"
-    },
-    {
-        "name": "K.J. Osborn",
-        "value": "18.7"
-    },
-    {
-        "name": "Ryan Flournoy",
-        "value": "18.2"
-    },
-    {
-        "name": "Marquise Brown",
-        "value": "18.1"
-    },
-    {
-        "name": "Ainias Smith",
-        "value": "17.7"
-    },
-    {
-        "name": "Simi Fehoko",
-        "value": "16.6"
-    },
-    {
-        "name": "Zay Jones",
-        "value": "16.4"
-    },
-    {
-        "name": "Bryce Oliver",
-        "value": "15.5"
-    },
-    {
-        "name": "Parris Campbell",
-        "value": "15.0"
-    },
-    {
-        "name": "Johnny Wilson",
-        "value": "14.8"
-    },
-    {
-        "name": "Jermaine Burton",
-        "value": "14.7"
-    },
-    {
-        "name": "Jalen Reagor",
-        "value": "14.7"
-    },
-    {
-        "name": "Odell Beckham Jr.",
-        "value": "14.5"
-    },
-    {
-        "name": "Xavier Gipson",
-        "value": "14.4"
-    },
-    {
-        "name": "Jalin Hyatt",
-        "value": "14.2"
-    },
-    {
-        "name": "DeAndre Carter",
-        "value": "14.2"
-    },
-    {
-        "name": "Brandon Powell",
-        "value": "14.1"
-    },
-    {
-        "name": "Tyrell Shavers",
-        "value": "13.9"
-    },
-    {
-        "name": "Chris Conley",
-        "value": "13.6"
-    },
-    {
-        "name": "River Cracraft",
-        "value": "13.6"
-    },
-    {
-        "name": "Michael Woods II",
-        "value": "13.5"
-    },
-    {
-        "name": "DJ Chark Jr.",
-        "value": "13.1"
-    },
-    {
-        "name": "Tay Martin",
-        "value": "11.9"
-    },
-    {
-        "name": "Ben Skowronek",
-        "value": "11.9"
-    },
-    {
-        "name": "Scotty Miller",
-        "value": "11.9"
-    },
-    {
-        "name": "Laviska Shenault Jr.",
-        "value": "10.7"
-    },
-    {
-        "name": "Jacob Cowing",
-        "value": "10.7"
-    },
-    {
-        "name": "Britain Covey",
-        "value": "10.4"
-    },
-    {
-        "name": "Kristian Wilkerson",
-        "value": "9.8"
-    },
-    {
-        "name": "Devontez Walker",
-        "value": "9.1"
-    },
-    {
-        "name": "Tyquan Thornton",
-        "value": "8.7"
-    },
-    {
-        "name": "Treylon Burks",
-        "value": "7.5"
-    },
-    {
-        "name": "Dee Eskridge",
-        "value": "7.4"
-    },
-    {
-        "name": "Terrace Marshall Jr.",
-        "value": "7.1"
-    },
-    {
-        "name": "Tim Jones",
-        "value": "7.1"
-    },
-    {
-        "name": "Nikko Remigio",
-        "value": "6.8"
-    },
-    {
-        "name": "Dan Chisena",
-        "value": "6.7"
-    },
-    {
-        "name": "Deven Thompkins",
-        "value": "6.7"
-    },
-    {
-        "name": "Cody White",
-        "value": "6.4"
-    },
-    {
-        "name": "Xavier Smith",
-        "value": "6.2"
-    },
-    {
-        "name": "Alex Bachman",
-        "value": "6.1"
-    },
-    {
-        "name": "Allen Robinson II",
-        "value": "6.0"
-    },
-    {
-        "name": "Ihmir Smith-Marsette",
-        "value": "6.0"
-    },
-    {
-        "name": "David Bell",
-        "value": "5.7"
-    },
-    {
-        "name": "Charlie Jones",
-        "value": "5.5"
-    },
-    {
-        "name": "Malachi Corley",
-        "value": "5.2"
-    },
-    {
-        "name": "Jamari Thrash",
-        "value": "5.2"
-    },
-    {
-        "name": "Trenton Irwin",
-        "value": "4.5"
-    },
-    {
-        "name": "Ronnie Bell",
-        "value": "4.2"
-    },
-    {
-        "name": "Austin Trammell",
-        "value": "4.0"
-    },
-    {
-        "name": "Mason Kinsey",
-        "value": "3.7"
-    },
-    {
-        "name": "Anthony Gould",
-        "value": "3.3"
-    },
-    {
-        "name": "Isaiah Hodgins",
-        "value": "3.2"
-    },
-    {
-        "name": "Grant DuBose",
-        "value": "3.1"
-    },
-    {
-        "name": "James Proche II",
-        "value": "3.1"
-    },
-    {
-        "name": "Chris Blair",
-        "value": "2.7"
-    },
-    {
-        "name": "Isaiah Williams",
-        "value": "2.6"
-    },
-    {
-        "name": "Anthony Miller",
-        "value": "2.6"
-    },
-    {
-        "name": "Casey Washington",
-        "value": "2.4"
-    },
-    {
-        "name": "Javon Baker",
-        "value": "2.2"
-    },
-    {
-        "name": "Trent Taylor",
-        "value": "2.1"
-    },
-    {
-        "name": "Brandon Johnson",
-        "value": "1.9"
-    },
-    {
-        "name": "Kendric Pryor",
-        "value": "1.9"
-    },
-    {
-        "name": "Ramel Keyton",
-        "value": "1.7"
-    },
-    {
-        "name": "John Ross",
-        "value": "1.6"
-    },
-    {
-        "name": "Jaelon Darden",
-        "value": "1.6"
-    },
-    {
-        "name": "Collin Johnson",
-        "value": "1.6"
-    },
-    {
-        "name": "Tyler Scott",
-        "value": "1.5"
-    },
-    {
-        "name": "Robbie Chosen",
-        "value": "1.5"
-    },
-    {
-        "name": "Kameron Johnson",
-        "value": "1.1"
-    },
-    {
-        "name": "Velus Jones Jr.",
-        "value": "0.9"
-    },
-    {
-        "name": "Brycen Tremayne",
-        "value": "0.8"
-    },
-    {
-        "name": "Quintez Cephus",
-        "value": "0"
-    },
-    {
-        "name": "Emeka Egbuka",
-        "value": "0"
-    },
-    {
-        "name": "Chris Tyree",
-        "value": "0"
-    },
-    {
-        "name": "Daniel Jackson",
-        "value": "0"
-    },
-    {
-        "name": "Cornelius Johnson",
-        "value": "0"
-    },
-    {
-        "name": "AJ Henning",
-        "value": "0"
-    },
-    {
-        "name": "Tom Kennedy",
-        "value": "0.0"
-    },
-    {
-        "name": "D.J. Montgomery",
-        "value": "0"
-    },
-    {
-        "name": "Jalen Guyton",
-        "value": "0.0"
-    },
-    {
-        "name": "Deonte Harty",
-        "value": "0.0"
-    },
-    {
-        "name": "Mario Williams",
-        "value": "0"
-    },
-    {
-        "name": "Ja'Corey Brooks",
-        "value": "0"
-    },
-    {
-        "name": "KJ Hamler",
-        "value": "0.0"
-    },
-    {
-        "name": "Donovan Peoples-Jones",
-        "value": "0"
-    },
-    {
-        "name": "Traeshon Holden",
-        "value": "0"
-    },
-    {
-        "name": "Malik Cunningham",
-        "value": "0"
-    },
-    {
-        "name": "Gunner Olszewski",
-        "value": "0"
-    },
-    {
-        "name": "Arian Smith",
-        "value": "0"
-    },
-    {
-        "name": "Beaux Collins",
-        "value": "0"
-    },
-    {
-        "name": "Tarik Black",
-        "value": "0"
-    },
-    {
-        "name": "Scotty Washington",
-        "value": "0"
-    },
-    {
-        "name": "Rondale Moore",
-        "value": "0"
-    },
-    {
-        "name": "Justyn Ross",
-        "value": "0.0"
-    },
-    {
-        "name": "Seth Williams",
-        "value": "0.0"
-    },
-    {
-        "name": "Dez Fitzpatrick",
-        "value": "0.0"
-    },
-    {
-        "name": "Andre Baccellia",
-        "value": "0"
-    },
-    {
-        "name": "Quez Watkins",
-        "value": "0"
-    },
-    {
-        "name": "Lawrence Cager",
-        "value": "0"
-    },
-    {
-        "name": "Trishton Jackson",
-        "value": "0"
-    },
-    {
-        "name": "JaQuae Jackson",
-        "value": "0"
-    },
-    {
-        "name": "Julian Hicks",
-        "value": "0"
-    },
-    {
-        "name": "Terique Owens",
-        "value": "0"
-    },
-    {
-        "name": "Drake Stoops",
-        "value": "0"
-    },
-    {
-        "name": "Xavier Johnson",
-        "value": "0"
-    },
-    {
-        "name": "Jeshaun Jones",
-        "value": "0"
-    },
-    {
-        "name": "Jaylen Johnson",
-        "value": "0.0"
-    },
-    {
-        "name": "John Jackson III",
-        "value": "0"
-    },
-    {
-        "name": "John Jiles",
-        "value": "0"
-    },
-    {
-        "name": "Luther Burden III",
-        "value": "0"
-    },
-    {
-        "name": "Elic Ayomanor",
-        "value": "0"
-    },
-    {
-        "name": "Xavier Restrepo",
-        "value": "0"
-    },
-    {
-        "name": "Kobe Hudson",
-        "value": "0"
-    },
-    {
-        "name": "Cole Burgess",
-        "value": "0"
-    },
-    {
-        "name": "Qadir Ismail",
-        "value": "0"
-    },
-    {
-        "name": "Jayden Higgins",
-        "value": "0"
-    },
-    {
-        "name": "Travis Hunter",
-        "value": "0"
-    },
-    {
-        "name": "Dominic Lovett",
-        "value": "0"
-    },
-    {
-        "name": "Dorian Singer",
-        "value": "0"
-    },
-    {
-        "name": "Matthew Golden",
-        "value": "0"
-    },
-    {
-        "name": "Isaiah Neyor",
-        "value": "0"
-    },
-    {
-        "name": "Tory Horton",
-        "value": "0"
-    },
-    {
-        "name": "Tejhaun Palmer",
-        "value": "0"
-    },
-    {
-        "name": "Joshua Cephus",
-        "value": "0.0"
-    },
-    {
-        "name": "John Rhys Plumlee",
-        "value": "0"
-    },
-    {
-        "name": "Tahj Washington",
-        "value": "0"
-    },
-    {
-        "name": "Andrew Armstrong",
-        "value": "0"
-    },
-    {
-        "name": "Ajou Ajou",
-        "value": "0"
-    },
-    {
-        "name": "Dayton Wade",
-        "value": "0"
-    },
-    {
-        "name": "Chase Cota",
-        "value": "0"
-    },
-    {
-        "name": "Elijhah Badger",
-        "value": "0"
-    },
-    {
-        "name": "Roman Wilson",
-        "value": "0.0"
-    },
-    {
-        "name": "Brenden Rice",
-        "value": "0.0"
-    },
-    {
-        "name": "Tre' Harris",
-        "value": "0"
-    },
-    {
-        "name": "Jalen Royals",
-        "value": "0"
-    },
-    {
-        "name": "Da'Quan Felton",
-        "value": "0"
-    },
-    {
-        "name": "Nate McCollum",
-        "value": "0"
-    },
-    {
-        "name": "Tyler Kahmann",
-        "value": "0"
-    },
-    {
-        "name": "Blayne Taylor",
-        "value": "0"
-    },
-    {
-        "name": "Silas Bolden",
-        "value": "0"
-    },
-    {
-        "name": "Quincy Skinner Jr.",
-        "value": "0"
-    },
-    {
-        "name": "Dalen Cambre",
-        "value": "0"
-    },
-    {
-        "name": "Jordan Bly",
-        "value": "0"
-    },
-    {
-        "name": "Chandler Brayboy",
-        "value": "0"
-    },
-    {
-        "name": "Landon Parker",
-        "value": "0"
-    },
-    {
-        "name": "Eli Pancol",
-        "value": "0"
-    },
-    {
-        "name": "Cam Camper",
-        "value": "0"
-    },
-    {
-        "name": "Quentin Skinner",
-        "value": "0"
-    },
-    {
-        "name": "Jackson Meeks",
-        "value": "0"
-    },
-    {
-        "name": "Jakobie Keeney-James",
-        "value": "0"
-    },
-    {
-        "name": "Dontae Fleming",
-        "value": "0"
-    },
-    {
-        "name": "Robert Lewis",
-        "value": "0"
-    },
-    {
-        "name": "Coleman Owen",
-        "value": "0"
-    },
-    {
-        "name": "Jaylen Jones",
-        "value": "0"
-    },
-    {
-        "name": "Hal Presley",
-        "value": "0"
-    },
-    {
-        "name": "Tommy Mellott",
-        "value": "0"
-    },
-    {
-        "name": "Junior Bergen",
-        "value": "0"
-    },
-    {
-        "name": "JP Richardson",
-        "value": "0"
-    },
-    {
-        "name": "Rashod Owens",
-        "value": "0"
-    },
-    {
-        "name": "Jordan Moore",
-        "value": "0"
-    },
-    {
-        "name": "Mac Dalena",
-        "value": "0"
-    },
-    {
-        "name": "Jamoi Mayes",
-        "value": "0"
-    },
-    {
-        "name": "Stephen Gosnell",
-        "value": "0"
-    },
-    {
-        "name": "Joaquin Davis",
-        "value": "0"
-    },
-    {
-        "name": "Jerjuan Newton",
-        "value": "0"
-    },
-    {
-        "name": "Courtney Jackson",
-        "value": "0"
-    },
-    {
-        "name": "Bryson Green",
-        "value": "0"
-    },
-    {
-        "name": "Luke Grimm",
-        "value": "0"
-    },
-    {
-        "name": "Ke'Shawn Williams",
-        "value": "0"
-    },
-    {
-        "name": "Tru Edwards",
-        "value": "0"
-    },
-    {
-        "name": "Jordan Watkins",
-        "value": "0"
-    },
-    {
-        "name": "Cade McDonald",
-        "value": "0"
-    },
-    {
-        "name": "TJ Sheffield",
-        "value": "0"
-    },
-    {
-        "name": "Ketron Jackson Jr.",
-        "value": "0"
-    },
-    {
-        "name": "Key'Shawn Smith",
-        "value": "0"
-    },
-    {
-        "name": "Dalevon Campbell",
-        "value": "0"
-    },
-    {
-        "name": "Kyrese Rowan",
-        "value": "0"
-    },
-    {
-        "name": "Ja'seem Reed",
-        "value": "0"
-    },
-    {
-        "name": "Mitch Van Vooren",
-        "value": "0"
-    },
-    {
-        "name": "Ife Adeyi",
-        "value": "0"
-    },
-    {
-        "name": "Luke Floriea",
-        "value": "0"
-    },
-    {
-        "name": "Jimmy Holiday",
-        "value": "0"
-    },
-    {
-        "name": "Brennan Presley",
-        "value": "0"
-    },
-    {
-        "name": "Jahdae Walker",
-        "value": "0"
-    },
-    {
-        "name": "Jahmal Banks",
-        "value": "0"
-    },
-    {
-        "name": "Xavier Guillory",
-        "value": "0"
-    },
-    {
-        "name": "Moochie Dixon",
-        "value": "0"
-    },
-    {
-        "name": "Tyrone Broden",
-        "value": "0"
-    },
-    {
-        "name": "Darius Lassiter",
-        "value": "0"
-    },
-    {
-        "name": "Myles Price",
-        "value": "0"
-    },
-    {
-        "name": "Gage Larvadain",
-        "value": "0"
-    },
-    {
-        "name": "Kisean Johnson",
-        "value": "0"
-    },
-    {
-        "name": "Jeremiah Webb",
-        "value": "0"
-    },
-    {
-        "name": "Dymere Miller",
-        "value": "0"
-    },
-    {
-        "name": "Taylor Morin",
-        "value": "0"
-    },
-    {
-        "name": "Darius Cooper",
-        "value": "0"
-    },
-    {
-        "name": "Giles Jackson",
-        "value": "0"
-    },
-    {
-        "name": "Kyle Williams",
-        "value": "0"
-    },
-    {
-        "name": "Josh Kelly",
-        "value": "0"
-    },
-    {
-        "name": "TJ Moore",
-        "value": "0"
-    },
-    {
-        "name": "Antwane Wells Jr.",
-        "value": "0"
-    },
-    {
-        "name": "Jaylin Noel",
-        "value": "0"
-    },
-    {
-        "name": "Savion Williams",
-        "value": "0"
-    },
-    {
-        "name": "Tez Johnson",
-        "value": "0"
-    },
-    {
-        "name": "Tai Felton",
-        "value": "0"
-    },
-    {
-        "name": "Ricky White III",
-        "value": "0"
-    },
-    {
-        "name": "Pat Bryant",
-        "value": "0"
-    },
-    {
-        "name": "Theo Wease Jr.",
-        "value": "0"
-    },
-    {
-        "name": "Jack Bech",
-        "value": "0"
-    },
-    {
-        "name": "Will Sheppard",
-        "value": "0"
-    },
-    {
-        "name": "Nick Nash",
-        "value": "0"
-    },
-    {
-        "name": "Dont'e Thornton Jr.",
-        "value": "0"
-    },
-    {
-        "name": "Jimmy Horn Jr.",
-        "value": "0"
-    },
-    {
-        "name": "Chimere Dike",
-        "value": "0"
-    },
-    {
-        "name": "Jamaal Pritchett",
-        "value": "0"
-    },
-    {
-        "name": "LaJohntay Wester",
-        "value": "0"
-    },
-    {
-        "name": "Traeshin Holden",
-        "value": "0"
-    },
-    {
-        "name": "Konata Mumpfield",
-        "value": "0"
-    },
-    {
-        "name": "Sam Brown Jr.",
-        "value": "0"
-    },
-    {
-        "name": "Jacolby George",
-        "value": "0"
-    },
-    {
-        "name": "Jacksin Meeks",
-        "value": "0"
-    },
-    {
-        "name": "Jaylin Lane",
-        "value": "0"
-    },
-    {
-        "name": "Efton Chism III",
-        "value": "0"
-    },
-    {
-        "name": "Roc Taylor",
-        "value": "0"
-    },
-    {
-        "name": "Monaray Baldwin",
-        "value": "0"
-    },
-    {
-        "name": "Garrett Greene",
-        "value": "0"
-    },
-    {
-        "name": "Isaac TeSlaa",
-        "value": "0"
-    },
-    {
-        "name": "Braylon Sanders",
-        "value": "0"
-    },
-    {
-        "name": "Johnny Johnson III",
-        "value": "0"
-    },
-    {
-        "name": "Jacoby Jones",
-        "value": "0"
-    },
-    {
-        "name": "A.T. Perry",
-        "value": "0"
-    },
-    {
-        "name": "Jalen Virgil",
-        "value": "0.0"
-    },
-    {
-        "name": "Montrell Washington",
-        "value": "0.0"
-    },
-    {
-        "name": "Dareke Young",
-        "value": "0.0"
-    },
-    {
-        "name": "Mitchell Tinsley",
-        "value": "0"
-    },
-    {
-        "name": "KeAndre Lambert-Smith",
-        "value": "0"
-    },
-    {
-        "name": "Brandon Smith",
-        "value": "0.0"
-    },
-    {
-        "name": "Michael Strachan",
-        "value": "0"
-    },
-    {
-        "name": "Kawaan Baker",
-        "value": "0"
-    },
-    {
-        "name": "Avery Williams",
-        "value": "0.0"
-    },
-    {
-        "name": "Jacob Harris",
-        "value": "0"
-    },
-    {
-        "name": "Skyy Moore",
-        "value": "0.0"
-    },
-    {
-        "name": "Samori Toure",
-        "value": "0"
-    },
-    {
-        "name": "Xavier Weaver",
-        "value": "0.0"
-    },
-    {
-        "name": "Justin Shorter",
-        "value": "0.0"
-    },
-    {
-        "name": "Michael Bandy",
-        "value": "0"
-    },
-    {
-        "name": "Erik Ezukanma",
-        "value": "0.0"
-    },
-    {
-        "name": "Lucky Jackson",
-        "value": "0"
-    },
-    {
-        "name": "Kazmeir Allen",
-        "value": "0.0"
-    },
-    {
-        "name": "Ontaria Wilson",
-        "value": "0"
-    },
-    {
-        "name": "Elijah Cooks",
-        "value": "0.0"
-    },
-    {
-        "name": "Thayer Thomas",
-        "value": "0"
-    },
-    {
-        "name": "Jared Wayne",
-        "value": "0.0"
-    },
-    {
-        "name": "Kaden Prather",
-        "value": "0"
-    },
-    {
-        "name": "Tetairoa McMillan",
-        "value": "0"
-    },
-    {
-        "name": "Matt Landers",
-        "value": "0"
-    },
-    {
-        "name": "Dylan Drummond",
-        "value": "0"
-    },
-    {
-        "name": "John Stephens Jr.",
-        "value": "0"
-    },
-    {
-        "name": "Shedrick Jackson",
-        "value": "0"
+        "name": "Malik Davis",
+        "value": "40.6"
     },
     {
         "name": "Zavier Scott",
-        "value": "0"
+        "value": "39.2"
     },
     {
-        "name": "Jason Brownlee",
-        "value": "0"
+        "name": "Hunter Luepke",
+        "value": "37.0"
     },
     {
-        "name": "T.J. Luther",
-        "value": "0"
+        "name": "Ameer Abdullah",
+        "value": "35.9"
     },
     {
-        "name": "Jalen Cropper",
-        "value": "0.0"
+        "name": "Trey Benson",
+        "value": "35.4"
     },
     {
-        "name": "Dennis Houston",
-        "value": "0"
+        "name": "Tyler Badie",
+        "value": "35.4"
     },
     {
-        "name": "Kaden Davis",
-        "value": "0.0"
+        "name": "Kendre Miller",
+        "value": "33.3"
     },
     {
-        "name": "Tyreik McAllister",
-        "value": "0.0"
+        "name": "James Conner",
+        "value": "33.3"
     },
     {
-        "name": "Lance McCutcheon",
-        "value": "0"
+        "name": "Chris Brooks",
+        "value": "32.7"
     },
     {
-        "name": "Irvin Charles",
-        "value": "0.0"
+        "name": "Jaleel McLaughlin",
+        "value": "31.4"
     },
     {
-        "name": "Jesse Matthews",
-        "value": "0"
+        "name": "Jawhar Jordan",
+        "value": "29.7"
     },
     {
-        "name": "Maurice Alexander",
-        "value": "0.0"
+        "name": "Raheem Mostert",
+        "value": "29.4"
     },
     {
-        "name": "Bryce Ford-Wheaton",
-        "value": "0.0"
+        "name": "Miles Sanders",
+        "value": "26.7"
     },
     {
-        "name": "Jordan Matthews",
-        "value": "0.0"
+        "name": "Jaret Patterson",
+        "value": "25.7"
     },
     {
-        "name": "Patrick Edwards",
-        "value": "0"
+        "name": "LeQuint Allen",
+        "value": "24.8"
     },
     {
-        "name": "Malik Taylor",
-        "value": "0"
+        "name": "Rasheen Ali",
+        "value": "24.2"
     },
     {
-        "name": "Kenny McKinley",
-        "value": "0"
+        "name": "Dare Ogunbowale",
+        "value": "24.1"
     },
     {
-        "name": "Nate Hughes",
-        "value": "0"
+        "name": "Antonio Gibson",
+        "value": "23.2"
     },
     {
-        "name": "Mike Furrey",
-        "value": "0"
+        "name": "Jaydon Blue",
+        "value": "20.4"
     },
     {
-        "name": "Marko Mitchell",
-        "value": "0"
+        "name": "Raheim Sanders",
+        "value": "20.3"
     },
     {
-        "name": "Maurice Purify",
-        "value": "0"
+        "name": "Will Shipley",
+        "value": "17.5"
     },
     {
-        "name": "Chris Henry",
-        "value": "0"
+        "name": "Trayveon Williams",
+        "value": "17.1"
     },
     {
-        "name": "Bobby Wade",
-        "value": "0"
+        "name": "Braelon Allen",
+        "value": "15.3"
     },
     {
-        "name": "Demario Ballard",
-        "value": "0"
+        "name": "Terrell Jennings",
+        "value": "15.2"
     },
     {
-        "name": "Rod Harper",
-        "value": "0"
+        "name": "George Holani",
+        "value": "14.8"
     },
     {
-        "name": "Sam Giguere",
-        "value": "0"
+        "name": "Austin Ekeler",
+        "value": "13.1"
     },
     {
-        "name": "Michael Gallup",
-        "value": "0"
+        "name": "Trevor Etienne",
+        "value": "11.7"
     },
     {
-        "name": "Deon Cain",
-        "value": "0"
+        "name": "Najee Harris",
+        "value": "11.6"
     },
     {
-        "name": "Russell Gage Jr.",
-        "value": "0"
+        "name": "Kene Nwangwu",
+        "value": "10.9"
     },
     {
-        "name": "Braxton Berrios",
-        "value": "0.0"
+        "name": "Phil Mafah",
+        "value": "10.9"
     },
     {
-        "name": "Equanimeous St. Brown",
-        "value": "0.0"
+        "name": "Hassan Haskins",
+        "value": "10.0"
     },
     {
-        "name": "Jamal Agnew",
-        "value": "0"
+        "name": "Brittain Brown",
+        "value": "9.7"
     },
     {
-        "name": "Zach Pascal",
-        "value": "0.0"
+        "name": "DJ Giddens",
+        "value": "9.6"
     },
     {
-        "name": "Justin Hardee Sr.",
-        "value": "0.0"
+        "name": "Zamir White",
+        "value": "9.6"
     },
     {
-        "name": "Cody Thompson",
-        "value": "0.0"
+        "name": "Corey Kiner",
+        "value": "9.3"
     },
     {
-        "name": "Hunter Renfrow",
-        "value": "0"
+        "name": "AJ Dillon",
+        "value": "9.1"
     },
     {
-        "name": "David Sills",
-        "value": "0"
+        "name": "Kaleb Johnson",
+        "value": "8.8"
     },
     {
-        "name": "Miles Boykin",
-        "value": "0"
+        "name": "Ty Chandler",
+        "value": "8.8"
     },
     {
-        "name": "Quinton Bell",
-        "value": "0.0"
+        "name": "British Brooks",
+        "value": "7.8"
     },
     {
-        "name": "Keith Kirkwood",
-        "value": "0"
+        "name": "Cam Akers",
+        "value": "7.2"
     },
     {
-        "name": "Phillip Dorsett II",
-        "value": "0"
+        "name": "Khalil Herbert",
+        "value": "6.6"
     },
     {
-        "name": "Alex Erickson",
-        "value": "0.0"
+        "name": "Tahj Brooks",
+        "value": "6.4"
+    },
+    {
+        "name": "Evan Hull",
+        "value": "6.4"
+    },
+    {
+        "name": "Tyler Goodson",
+        "value": "5.2"
+    },
+    {
+        "name": "Ronnie Rivers",
+        "value": "4.6"
+    },
+    {
+        "name": "Clyde Edwards-Helaire",
+        "value": "4.2"
+    },
+    {
+        "name": "Nathan Carter",
+        "value": "4.0"
+    },
+    {
+        "name": "Julius Chestnut",
+        "value": "4.0"
+    },
+    {
+        "name": "Dameon Pierce",
+        "value": "3.6"
+    },
+    {
+        "name": "D'Ernest Johnson",
+        "value": "2.5"
+    },
+    {
+        "name": "DeeJay Dallas",
+        "value": "2.1"
+    },
+    {
+        "name": "Roschon Johnson",
+        "value": "1.7"
+    }
+]
+const lastYearWrs = [
+    {
+        "name": "Puka Nacua",
+        "value": "375.0"
+    },
+    {
+        "name": "Jaxon Smith-Njigba",
+        "value": "359.9"
+    },
+    {
+        "name": "Amon-Ra St. Brown",
+        "value": "324.0"
+    },
+    {
+        "name": "Ja'Marr Chase",
+        "value": "313.6"
+    },
+    {
+        "name": "George Pickens",
+        "value": "291.9"
+    },
+    {
+        "name": "Chris Olave",
+        "value": "268.0"
+    },
+    {
+        "name": "Zay Flowers",
+        "value": "243.3"
+    },
+    {
+        "name": "Nico Collins",
+        "value": "226.2"
+    },
+    {
+        "name": "Davante Adams",
+        "value": "222.9"
+    },
+    {
+        "name": "Michael Wilson",
+        "value": "220.6"
+    },
+    {
+        "name": "A.J. Brown",
+        "value": "220.3"
+    },
+    {
+        "name": "Jameson Williams",
+        "value": "219.9"
+    },
+    {
+        "name": "Courtland Sutton",
+        "value": "219.7"
+    },
+    {
+        "name": "Wan'Dale Robinson",
+        "value": "217.9"
+    },
+    {
+        "name": "Tee Higgins",
+        "value": "211.6"
+    },
+    {
+        "name": "Tetairoa McMillan",
+        "value": "211.4"
+    },
+    {
+        "name": "Stefon Diggs",
+        "value": "210.3"
+    },
+    {
+        "name": "Michael Pittman Jr.",
+        "value": "202.4"
+    },
+    {
+        "name": "Drake London",
+        "value": "201.9"
+    },
+    {
+        "name": "DeVonta Smith",
+        "value": "201.8"
+    },
+    {
+        "name": "Justin Jefferson",
+        "value": "201.5"
+    },
+    {
+        "name": "CeeDee Lamb",
+        "value": "200.9"
+    },
+    {
+        "name": "Emeka Egbuka",
+        "value": "195.7"
+    },
+    {
+        "name": "Jaylen Waddle",
+        "value": "194.1"
+    },
+    {
+        "name": "Deebo Samuel",
+        "value": "188.2"
+    },
+    {
+        "name": "D.K. Metcalf",
+        "value": "187.2"
+    },
+    {
+        "name": "Parker Washington",
+        "value": "184.7"
+    },
+    {
+        "name": "Alec Pierce",
+        "value": "183.3"
+    },
+    {
+        "name": "Keenan Allen",
+        "value": "182.7"
+    },
+    {
+        "name": "Ladd McConkey",
+        "value": "180.9"
+    },
+    {
+        "name": "Troy Franklin",
+        "value": "177.1"
+    },
+    {
+        "name": "Jakobi Meyers",
+        "value": "175.8"
+    },
+    {
+        "name": "Jauan Jennings",
+        "value": "173.3"
+    },
+    {
+        "name": "Quentin Johnston",
+        "value": "171.2"
+    },
+    {
+        "name": "D.J. Moore",
+        "value": "170.2"
+    },
+    {
+        "name": "Khalil Shakir",
+        "value": "166.4"
+    },
+    {
+        "name": "Romeo Doubs",
+        "value": "165.4"
+    },
+    {
+        "name": "Tre Tucker",
+        "value": "161.7"
+    },
+    {
+        "name": "Rashid Shaheed",
+        "value": "156.6"
+    },
+    {
+        "name": "Rashee Rice",
+        "value": "150.1"
+    },
+    {
+        "name": "Rome Odunze",
+        "value": "146.1"
+    },
+    {
+        "name": "Brian Thomas",
+        "value": "138.8"
+    },
+    {
+        "name": "Marquise Brown",
+        "value": "137.7"
+    },
+    {
+        "name": "Josh Downs",
+        "value": "136.4"
+    },
+    {
+        "name": "Jordan Addison",
+        "value": "135.1"
+    },
+    {
+        "name": "Christian Watson",
+        "value": "132.4"
+    },
+    {
+        "name": "Jayden Higgins",
+        "value": "129.5"
+    },
+    {
+        "name": "Luther Burden",
+        "value": "127.9"
+    },
+    {
+        "name": "Marvin Harrison Jr.",
+        "value": "127.8"
+    },
+    {
+        "name": "Chimere Dike",
+        "value": "126.1"
+    },
+    {
+        "name": "Kayshon Boutte",
+        "value": "124.1"
+    },
+    {
+        "name": "Jerry Jeudy",
+        "value": "120.7"
+    },
+    {
+        "name": "Malik Washington",
+        "value": "116.7"
+    },
+    {
+        "name": "Elic Ayomanor",
+        "value": "116.5"
+    },
+    {
+        "name": "Cooper Kupp",
+        "value": "116.3"
+    },
+    {
+        "name": "Terry McLaurin",
+        "value": "114.2"
+    },
+    {
+        "name": "Ryan Flournoy",
+        "value": "114.0"
+    },
+    {
+        "name": "Mack Hollins",
+        "value": "113.4"
+    },
+    {
+        "name": "Xavier Worthy",
+        "value": "109.9"
+    },
+    {
+        "name": "Keon Coleman",
+        "value": "102.4"
+    },
+    {
+        "name": "Jalen Nailor",
+        "value": "100.7"
+    },
+    {
+        "name": "Garrett Wilson",
+        "value": "99.5"
+    },
+    {
+        "name": "Darius Slayton",
+        "value": "98.8"
+    },
+    {
+        "name": "Xavier Hutchinson",
+        "value": "98.0"
+    },
+    {
+        "name": "DeMario Douglas",
+        "value": "95.8"
+    },
+    {
+        "name": "Marvin Mims",
+        "value": "93.0"
+    },
+    {
+        "name": "Tez Johnson",
+        "value": "92.4"
+    },
+    {
+        "name": "Kendrick Bourne",
+        "value": "92.1"
+    },
+    {
+        "name": "Jalen Coker",
+        "value": "90.4"
+    },
+    {
+        "name": "Andrei Iosivas",
+        "value": "89.9"
+    },
+    {
+        "name": "Xavier Legette",
+        "value": "89.3"
+    },
+    {
+        "name": "Ricky Pearsall",
+        "value": "88.6"
+    },
+    {
+        "name": "Adonai Mitchell",
+        "value": "87.9"
+    },
+    {
+        "name": "Calvin Austin III",
+        "value": "86.2"
+    },
+    {
+        "name": "Mike Evans",
+        "value": "84.8"
+    },
+    {
+        "name": "Olamide Zaccheaus",
+        "value": "84.8"
+    },
+    {
+        "name": "KaVontae Turpin",
+        "value": "84.5"
+    },
+    {
+        "name": "Chris Godwin",
+        "value": "83.0"
+    },
+    {
+        "name": "Darnell Mooney",
+        "value": "82.3"
+    },
+    {
+        "name": "Sterling Shepard",
+        "value": "82.0"
+    },
+    {
+        "name": "Tyquan Thornton",
+        "value": "80.8"
+    },
+    {
+        "name": "Isaac TeSlaa",
+        "value": "75.9"
+    },
+    {
+        "name": "Dontayvion Wicks",
+        "value": "75.8"
+    },
+    {
+        "name": "Greg Dortch",
+        "value": "75.1"
+    },
+    {
+        "name": "Pat Bryant",
+        "value": "74.8"
+    },
+    {
+        "name": "JuJu Smith-Schuster",
+        "value": "73.5"
+    },
+    {
+        "name": "Tyler Lockett",
+        "value": "73.1"
+    },
+    {
+        "name": "John Metchie",
+        "value": "71.9"
+    },
+    {
+        "name": "Matthew Golden",
+        "value": "70.0"
+    },
+    {
+        "name": "Van Jefferson",
+        "value": "70.0"
+    },
+    {
+        "name": "Tre Harris",
+        "value": "69.4"
+    },
+    {
+        "name": "Jaylin Noel",
+        "value": "68.4"
+    },
+    {
+        "name": "DeAndre Hopkins",
+        "value": "67.0"
+    },
+    {
+        "name": "Kalif Raymond",
+        "value": "66.8"
+    },
+    {
+        "name": "Devaughn Vele",
+        "value": "66.3"
+    },
+    {
+        "name": "Tory Horton",
+        "value": "65.1"
+    },
+    {
+        "name": "Travis Hunter",
+        "value": "63.8"
+    },
+    {
+        "name": "Cedric Tillman",
+        "value": "60.0"
+    },
+    {
+        "name": "Isaiah Williams",
+        "value": "58.7"
+    },
+    {
+        "name": "Demarcus Robinson",
+        "value": "58.2"
+    },
+    {
+        "name": "Christian Kirk",
+        "value": "57.9"
+    },
+    {
+        "name": "Malik Nabers",
+        "value": "57.1"
+    },
+    {
+        "name": "Rashod Bateman",
+        "value": "55.4"
+    },
+    {
+        "name": "Isaiah Bond",
+        "value": "54.7"
+    },
+    {
+        "name": "Tyreek Hill",
+        "value": "53.5"
+    },
+    {
+        "name": "Josh Palmer",
+        "value": "52.3"
+    },
+    {
+        "name": "Brandin Cooks",
+        "value": "51.9"
+    },
+    {
+        "name": "Tim Patrick",
+        "value": "51.7"
+    },
+    {
+        "name": "Luke McCaffrey",
+        "value": "51.3"
+    },
+    {
+        "name": "Jahan Dotson",
+        "value": "50.2"
+    },
+    {
+        "name": "Dyami Brown",
+        "value": "49.7"
+    },
+    {
+        "name": "Kyle Williams",
+        "value": "49.2"
+    },
+    {
+        "name": "Jaylin Lane",
+        "value": "49.2"
+    },
+    {
+        "name": "David Sills V",
+        "value": "49.1"
+    },
+    {
+        "name": "Jayden Reed",
+        "value": "48.5"
+    },
+    {
+        "name": "Xavier Smith",
+        "value": "48.3"
+    },
+    {
+        "name": "Calvin Ridley",
+        "value": "47.3"
+    },
+    {
+        "name": "Jalen Tolbert",
+        "value": "46.3"
+    },
+    {
+        "name": "Tyrell Shavers",
+        "value": "45.5"
+    },
+    {
+        "name": "Jack Bech",
+        "value": "42.4"
+    },
+    {
+        "name": "Adam Thielen",
+        "value": "39.6"
     },
     {
         "name": "Chris Moore",
-        "value": "0"
+        "value": "38.6"
     },
     {
-        "name": "Laquon Treadwell",
+        "name": "Roman Wilson",
+        "value": "38.6"
+    },
+    {
+        "name": "Tyler Johnson",
+        "value": "37.7"
+    },
+    {
+        "name": "Devontez Walker",
+        "value": "37.6"
+    },
+    {
+        "name": "Jordan Whittington",
+        "value": "36.3"
+    },
+    {
+        "name": "Hunter Renfrow",
+        "value": "35.9"
+    },
+    {
+        "name": "Lil'Jordan Humphrey",
+        "value": "34.6"
+    },
+    {
+        "name": "Gunner Olszewski",
+        "value": "33.8"
+    },
+    {
+        "name": "Kevin Austin",
+        "value": "33.0"
+    },
+    {
+        "name": "Marquez Valdes-Scantling",
+        "value": "32.0"
+    },
+    {
+        "name": "Mitchell Tinsley",
+        "value": "31.6"
+    },
+    {
+        "name": "Malachi Corley",
+        "value": "31.6"
+    },
+    {
+        "name": "Tutu Atwell",
+        "value": "31.2"
+    },
+    {
+        "name": "Gabe Davis",
+        "value": "30.9"
+    },
+    {
+        "name": "Zay Jones",
+        "value": "30.3"
+    },
+    {
+        "name": "Brycen Tremayne",
+        "value": "30.0"
+    },
+    {
+        "name": "Jalen McMillan",
+        "value": "29.9"
+    },
+    {
+        "name": "Treylon Burks",
+        "value": "29.0"
+    },
+    {
+        "name": "Jimmy Horn",
+        "value": "28.7"
+    },
+    {
+        "name": "Elijah Moore",
+        "value": "28.6"
+    },
+    {
+        "name": "Isaiah Hodgins",
+        "value": "27.5"
+    },
+    {
+        "name": "Jahdae Walker",
+        "value": "26.7"
+    },
+    {
+        "name": "Theo Wease",
+        "value": "25.9"
+    },
+    {
+        "name": "Savion Williams",
+        "value": "25.5"
+    },
+    {
+        "name": "Konata Mumpfield",
+        "value": "25.2"
+    },
+    {
+        "name": "Dont'e Thornton",
+        "value": "23.5"
+    },
+    {
+        "name": "Josh Reynolds",
+        "value": "23.1"
+    },
+    {
+        "name": "Allen Lazard",
+        "value": "23.0"
+    },
+    {
+        "name": "Curtis Samuel",
+        "value": "21.1"
+    },
+    {
+        "name": "Jamari Thrash",
+        "value": "20.7"
+    },
+    {
+        "name": "Mason Tipton",
+        "value": "20.4"
+    },
+    {
+        "name": "Ashton Dulin",
+        "value": "20.0"
+    },
+    {
+        "name": "Nick Westbrook-Ikhine",
+        "value": "19.9"
+    },
+    {
+        "name": "Dante Pettis",
+        "value": "19.7"
+    },
+    {
+        "name": "Darius Cooper",
+        "value": "18.2"
+    },
+    {
+        "name": "Cody White",
+        "value": "18.0"
+    },
+    {
+        "name": "Kameron Johnson",
+        "value": "17.7"
+    },
+    {
+        "name": "Ben Skowronek",
+        "value": "16.9"
+    },
+    {
+        "name": "Efton Chism",
+        "value": "16.5"
+    },
+    {
+        "name": "KeAndre Lambert-Smith",
+        "value": "16.1"
+    },
+    {
+        "name": "Shedrick Jackson",
+        "value": "15.9"
+    },
+    {
+        "name": "Casey Washington",
+        "value": "15.4"
+    },
+    {
+        "name": "Scotty Miller",
+        "value": "15.2"
+    },
+    {
+        "name": "Skyy Moore",
+        "value": "14.8"
+    },
+    {
+        "name": "Malik Heath",
+        "value": "14.6"
+    },
+    {
+        "name": "Tylan Wallace",
+        "value": "14.5"
+    },
+    {
+        "name": "Ray-Ray McCloud",
+        "value": "13.9"
+    },
+    {
+        "name": "Xavier Weaver",
+        "value": "13.7"
+    },
+    {
+        "name": "Arian Smith",
+        "value": "13.5"
+    },
+    {
+        "name": "Noah Brown",
+        "value": "13.3"
+    },
+    {
+        "name": "Michael Bandy",
+        "value": "13.0"
+    },
+    {
+        "name": "James Proche",
+        "value": "12.5"
+    },
+    {
+        "name": "Gage Larvadain",
+        "value": "12.4"
+    },
+    {
+        "name": "Ryan Miller",
+        "value": "11.4"
+    },
+    {
+        "name": "Dylan Drummond",
+        "value": "11.2"
+    },
+    {
+        "name": "Ronnie Bell",
+        "value": "10.3"
+    },
+    {
+        "name": "Robbie Chosen",
+        "value": "10.3"
+    },
+    {
+        "name": "Braxton Berrios",
+        "value": "9.7"
+    },
+    {
+        "name": "Cedrick Wilson Jr.",
+        "value": "9.4"
+    },
+    {
+        "name": "Jalin Hyatt",
+        "value": "8.5"
+    },
+    {
+        "name": "D'Wayne Eskridge",
+        "value": "8.2"
+    },
+    {
+        "name": "Austin Trammell",
+        "value": "7.6"
+    },
+    {
+        "name": "Tom Kennedy",
+        "value": "7.6"
+    },
+    {
+        "name": "Xavier Restrepo",
+        "value": "7.1"
+    },
+    {
+        "name": "Mason Kinsey",
+        "value": "6.8"
+    },
+    {
+        "name": "Dareke Young",
+        "value": "6.8"
+    },
+    {
+        "name": "Deven Thompkins",
+        "value": "6.2"
+    },
+    {
+        "name": "Jalen Brooks",
+        "value": "6.1"
+    },
+    {
+        "name": "KhaDarel Hodge",
+        "value": "6.1"
+    },
+    {
+        "name": "Charlie Jones",
+        "value": "6.0"
+    },
+    {
+        "name": "Justin Watson",
+        "value": "6.0"
+    },
+    {
+        "name": "Tai Felton",
+        "value": "5.5"
+    },
+    {
+        "name": "Devin Duvernay",
+        "value": "4.6"
+    },
+    {
+        "name": "Jordan Watkins",
+        "value": "4.6"
+    },
+    {
+        "name": "Beaux Collins",
+        "value": "4.5"
+    },
+    {
+        "name": "Nikko Remigio",
+        "value": "4.2"
+    },
+    {
+        "name": "Jake Bobo",
+        "value": "4.0"
+    },
+    {
+        "name": "Britain Covey",
+        "value": "4.0"
+    },
+    {
+        "name": "Jacoby Jones",
+        "value": "3.5"
+    },
+    {
+        "name": "Jonathan Mingo",
+        "value": "3.5"
+    },
+    {
+        "name": "Velus Jones Jr.",
+        "value": "3.2"
+    },
+    {
+        "name": "Elijah Moore",
         "value": "0.0"
-    },
-    {
-        "name": "Jaden Smith",
-        "value": "0"
-    },
-    {
-        "name": "Jermaine Jackson",
-        "value": "-0.1"
-    },
-    {
-        "name": "Steven Sims Jr.",
-        "value": "-2.0"
-    },
-    {
-        "name": "Kadarius Toney",
-        "value": "-2.4"
-    },
-    {
-        "name": "Jha'Quan Jackson",
-        "value": "-2.7"
-    },
-    {
-        "name": "Dee Williams",
-        "value": "-6.0"
     }
 ];
 const lastYearTE = [
     {
-        "name": "Brock Bowers",
-        "value": "262.7"
-    },
-    {
         "name": "Trey McBride",
-        "value": "249.8"
+        "value": "315.9"
     },
     {
-        "name": "George Kittle",
-        "value": "236.6"
-    },
-    {
-        "name": "Jonnu Smith",
-        "value": "222.3"
+        "name": "Kyle Pitts",
+        "value": "210.8"
     },
     {
         "name": "Travis Kelce",
-        "value": "195.4"
-    },
-    {
-        "name": "Mark Andrews",
-        "value": "188.8"
-    },
-    {
-        "name": "Zach Ertz",
-        "value": "177.4"
-    },
-    {
-        "name": "Sam LaPorta",
-        "value": "174.6"
-    },
-    {
-        "name": "Pat Freiermuth",
-        "value": "168.3"
-    },
-    {
-        "name": "Tucker Kraft",
-        "value": "163.3"
-    },
-    {
-        "name": "David Njoku",
-        "value": "148.5"
-    },
-    {
-        "name": "Hunter Henry",
-        "value": "145.4"
-    },
-    {
-        "name": "Mike Gesicki",
-        "value": "141.5"
-    },
-    {
-        "name": "Cade Otton",
-        "value": "140.6"
-    },
-    {
-        "name": "Kyle Pitts Sr.",
-        "value": "131.2"
-    },
-    {
-        "name": "Isaiah Likely",
-        "value": "123.7"
-    },
-    {
-        "name": "Juwan Johnson",
-        "value": "122.8"
-    },
-    {
-        "name": "Tyler Conklin",
-        "value": "121.9"
-    },
-    {
-        "name": "Cole Kmet",
-        "value": "120.4"
-    },
-    {
-        "name": "Dalton Schultz",
-        "value": "118.2"
-    },
-    {
-        "name": "Chig Okonkwo",
-        "value": "113.6"
-    },
-    {
-        "name": "Noah Gray",
-        "value": "113.3"
-    },
-    {
-        "name": "Will Dissly",
-        "value": "110.1"
-    },
-    {
-        "name": "Austin Hooper",
-        "value": "108.6"
-    },
-    {
-        "name": "Jake Ferguson",
-        "value": "104.4"
-    },
-    {
-        "name": "Noah Fant",
-        "value": "104.0"
-    },
-    {
-        "name": "Dallas Goedert",
-        "value": "103.6"
-    },
-    {
-        "name": "Taysom Hill",
-        "value": "103.3"
-    },
-    {
-        "name": "Foster Moreau",
-        "value": "103.3"
-    },
-    {
-        "name": "Dalton Kincaid",
-        "value": "100.8"
-    },
-    {
-        "name": "Brenton Strange",
-        "value": "91.1"
-    },
-    {
-        "name": "Jordan Akins",
-        "value": "91.0"
-    },
-    {
-        "name": "Evan Engram",
-        "value": "89.5"
-    },
-    {
-        "name": "T.J. Hockenson",
-        "value": "86.5"
-    },
-    {
-        "name": "AJ Barner",
-        "value": "78.5"
-    },
-    {
-        "name": "Ja'Tavion Sanders",
-        "value": "73.2"
-    },
-    {
-        "name": "Theo Johnson",
-        "value": "68.1"
-    },
-    {
-        "name": "Josh Oliver",
-        "value": "65.8"
-    },
-    {
-        "name": "Colby Parkinson",
-        "value": "65.4"
-    },
-    {
-        "name": "Josh Whyle",
-        "value": "60.8"
-    },
-    {
-        "name": "Grant Calcaterra",
-        "value": "59.8"
-    },
-    {
-        "name": "Dawson Knox",
-        "value": "59.1"
-    },
-    {
-        "name": "Luke Schoonmaker",
-        "value": "57.1"
-    },
-    {
-        "name": "Tommy Tremble",
-        "value": "56.4"
-    },
-    {
-        "name": "Elijah Higgins",
-        "value": "49.2"
-    },
-    {
-        "name": "Nick Vannett",
-        "value": "48.5"
-    },
-    {
-        "name": "Johnny Mundt",
-        "value": "45.2"
-    },
-    {
-        "name": "Darnell Washington",
-        "value": "45.0"
-    },
-    {
-        "name": "Adam Trautman",
-        "value": "43.8"
-    },
-    {
-        "name": "Nate Adkins",
-        "value": "43.5"
-    },
-    {
-        "name": "Tanner Hudson",
-        "value": "38.5"
-    },
-    {
-        "name": "Michael Mayer",
-        "value": "36.6"
-    },
-    {
-        "name": "Drew Sample",
-        "value": "36.5"
-    },
-    {
-        "name": "Erick All Jr.",
-        "value": "35.8"
-    },
-    {
-        "name": "Brock Wright",
-        "value": "35.0"
-    },
-    {
-        "name": "Stone Smartt",
-        "value": "34.8"
-    },
-    {
-        "name": "Payne Durham",
-        "value": "34.5"
-    },
-    {
-        "name": "Cade Stover",
-        "value": "34.3"
-    },
-    {
-        "name": "Lucas Krull",
-        "value": "34.2"
-    },
-    {
-        "name": "Mo Alie-Cox",
-        "value": "32.7"
-    },
-    {
-        "name": "Kylen Granson",
-        "value": "32.2"
-    },
-    {
-        "name": "Jeremy Ruckert",
-        "value": "28.5"
-    },
-    {
-        "name": "Charlie Kolar",
-        "value": "28.3"
-    },
-    {
-        "name": "Eric Saubert",
-        "value": "26.7"
-    },
-    {
-        "name": "Tyler Higbee",
-        "value": "26.6"
-    },
-    {
-        "name": "Daniel Bellinger",
-        "value": "26.5"
-    },
-    {
-        "name": "Drew Ogletree",
-        "value": "25.9"
-    },
-    {
-        "name": "Julian Hill",
-        "value": "22.0"
-    },
-    {
-        "name": "Luke Farrell",
-        "value": "18.7"
-    },
-    {
-        "name": "Brevyn Spann-Ford",
-        "value": "17.8"
-    },
-    {
-        "name": "Harrison Bryant",
-        "value": "17.6"
-    },
-    {
-        "name": "Blake Whiteheart",
-        "value": "17.1"
-    },
-    {
-        "name": "Connor Heyward",
-        "value": "16.0"
-    },
-    {
-        "name": "MyCole Pruitt",
-        "value": "16.0"
-    },
-    {
-        "name": "Kenny Yeboah",
-        "value": "15.7"
-    },
-    {
-        "name": "Hayden Hurst",
-        "value": "15.3"
-    },
-    {
-        "name": "Quintin Morris",
-        "value": "14.6"
-    },
-    {
-        "name": "John Bates",
-        "value": "14.4"
-    },
-    {
-        "name": "Durham Smythe",
-        "value": "14.3"
-    },
-    {
-        "name": "Ben Sinnott",
-        "value": "13.8"
-    },
-    {
-        "name": "Devin Culp",
-        "value": "13.8"
-    },
-    {
-        "name": "Hunter Long",
-        "value": "13.0"
-    },
-    {
-        "name": "Pharaoh Brown",
-        "value": "12.5"
-    },
-    {
-        "name": "Chris Manhertz",
-        "value": "12.0"
-    },
-    {
-        "name": "Gerald Everett",
-        "value": "11.6"
-    },
-    {
-        "name": "Charlie Woerner",
-        "value": "11.6"
-    },
-    {
-        "name": "Luke Musgrave",
-        "value": "11.5"
-    },
-    {
-        "name": "Tucker Fisk",
-        "value": "10.9"
-    },
-    {
-        "name": "Peyton Hendershot",
-        "value": "10.1"
-    },
-    {
-        "name": "Davis Allen",
-        "value": "9.9"
-    },
-    {
-        "name": "Tip Reiman",
-        "value": "9.7"
-    },
-    {
-        "name": "Ben Sims",
-        "value": "8.2"
-    },
-    {
-        "name": "Cam Grandy",
-        "value": "7.8"
-    },
-    {
-        "name": "Greg Dulcich",
-        "value": "7.8"
-    },
-    {
-        "name": "E.J. Jenkins",
-        "value": "7.7"
-    },
-    {
-        "name": "Will Mallory",
-        "value": "6.9"
-    },
-    {
-        "name": "Dallin Holker",
-        "value": "5.1"
-    },
-    {
-        "name": "Tanner Conner",
-        "value": "4.6"
-    },
-    {
-        "name": "Josiah Deguara",
-        "value": "4.4"
-    },
-    {
-        "name": "Jaheim Bell",
-        "value": "4.0"
-    },
-    {
-        "name": "Ian Thomas",
-        "value": "3.7"
-    },
-    {
-        "name": "Shane Zylstra",
-        "value": "3.2"
-    },
-    {
-        "name": "Jack Stoll",
-        "value": "3.0"
-    },
-    {
-        "name": "Eric Tomlinson",
-        "value": "2.9"
-    },
-    {
-        "name": "Brevin Jordan",
-        "value": "2.7"
-    },
-    {
-        "name": "Geoff Swaim",
-        "value": "1.7"
-    },
-    {
-        "name": "Jared Wiley",
-        "value": "1.7"
-    },
-    {
-        "name": "John Samuel Shenker",
-        "value": "1.7"
-    },
-    {
-        "name": "David Martin-Robinson",
-        "value": "1.6"
-    },
-    {
-        "name": "Zach Davidson",
-        "value": "1.5"
-    },
-    {
-        "name": "Ross Dwelley",
-        "value": "1.5"
-    },
-    {
-        "name": "Jody Fortson Jr.",
-        "value": "1.5"
-    },
-    {
-        "name": "John FitzPatrick",
-        "value": "1.2"
-    },
-    {
-        "name": "Marcedes Lewis",
-        "value": "1.2"
-    },
-    {
-        "name": "Matt Sokol",
-        "value": "0"
-    },
-    {
-        "name": "Matt Orzech",
-        "value": "0.0"
-    },
-    {
-        "name": "Dominique Dafney",
-        "value": "0"
-    },
-    {
-        "name": "Mitchell Fraboni",
-        "value": "0.0"
-    },
-    {
-        "name": "Dalton Keene",
-        "value": "0"
-    },
-    {
-        "name": "Feleipe Franks",
-        "value": "0.0"
-    },
-    {
-        "name": "Stephen Sullivan",
-        "value": "0.0"
-    },
-    {
-        "name": "Lawrence Cager",
-        "value": "0"
-    },
-    {
-        "name": "Tyler Mabry",
-        "value": "0"
-    },
-    {
-        "name": "Sean McKeon",
-        "value": "0"
-    },
-    {
-        "name": "Giovanni Ricci",
-        "value": "0"
-    },
-    {
-        "name": "Scotty Washington",
-        "value": "0"
-    },
-    {
-        "name": "Mitchell Wilcox",
-        "value": "0"
-    },
-    {
-        "name": "Chris Myarick",
-        "value": "0"
-    },
-    {
-        "name": "Parker Hesse",
-        "value": "0.0"
-    },
-    {
-        "name": "Tanner McLachlan",
-        "value": "0.0"
+        "value": "193.2"
     },
     {
         "name": "Tyler Warren",
-        "value": "0"
+        "value": "188.5"
     },
     {
-        "name": "Jack Westover",
-        "value": "0.0"
+        "name": "Jake Ferguson",
+        "value": "188.1"
     },
     {
-        "name": "Neal Johnson",
-        "value": "0"
+        "name": "Harold Fannin",
+        "value": "186.4"
     },
     {
-        "name": "Thomas Yassmin",
-        "value": "0"
+        "name": "Dallas Goedert",
+        "value": "185.1"
     },
     {
-        "name": "Mason Pline",
-        "value": "0"
+        "name": "Juwan Johnson",
+        "value": "179.9"
     },
     {
-        "name": "Brenden Bates",
-        "value": "0.0"
+        "name": "Hunter Henry",
+        "value": "178.8"
     },
     {
-        "name": "Treyton Welch",
-        "value": "0"
+        "name": "Dalton Schultz",
+        "value": "177.7"
     },
     {
-        "name": "Steven Stilianos",
-        "value": "0"
-    },
-    {
-        "name": "Colson Yankoff",
-        "value": "0.0"
-    },
-    {
-        "name": "Messiah Swinson",
-        "value": "0"
-    },
-    {
-        "name": "Shawn Bowman",
-        "value": "0"
-    },
-    {
-        "name": "Brady Russell",
-        "value": "0.0"
-    },
-    {
-        "name": "Johnny Lumpkin",
-        "value": "0"
-    },
-    {
-        "name": "Joel Wilson",
-        "value": "0"
-    },
-    {
-        "name": "Travis Vokolek",
-        "value": "0.0"
+        "name": "Brock Bowers",
+        "value": "176.2"
     },
     {
         "name": "Colston Loveland",
-        "value": "0"
+        "value": "165.1"
     },
     {
-        "name": "Bryson Nesbit",
-        "value": "0"
+        "name": "George Kittle",
+        "value": "161.5"
     },
     {
-        "name": "Mason Taylor",
-        "value": "0"
-    },
-    {
-        "name": "Caden Prieskorn",
-        "value": "0"
-    },
-    {
-        "name": "Gavin Bartholomew",
-        "value": "0"
+        "name": "AJ Barner",
+        "value": "147.3"
     },
     {
         "name": "Oronde Gadsden II",
-        "value": "0"
+        "value": "131.4"
     },
     {
-        "name": "Tanner Taula",
-        "value": "0"
+        "name": "Mark Andrews",
+        "value": "131.0"
     },
     {
-        "name": "John Stephens Jr.",
-        "value": "0"
+        "name": "Colby Parkinson",
+        "value": "129.8"
     },
     {
-        "name": "Princeton Fant",
-        "value": "0.0"
+        "name": "Theo Johnson",
+        "value": "127.8"
     },
     {
-        "name": "Jordan Murray",
-        "value": "0"
+        "name": "Zach Ertz",
+        "value": "126.4"
     },
     {
-        "name": "JJ Galbreath",
-        "value": "0"
+        "name": "Dalton Kincaid",
+        "value": "126.1"
     },
     {
-        "name": "DJ Thomas-Jones",
-        "value": "0"
+        "name": "Chig Okonkwo",
+        "value": "124.0"
     },
     {
-        "name": "Bryce Pierre",
-        "value": "0"
+        "name": "Cade Otton",
+        "value": "122.2"
     },
     {
-        "name": "John Copenhaver",
-        "value": "0"
+        "name": "Brenton Strange",
+        "value": "118.0"
     },
     {
-        "name": "Patrick Herbert",
-        "value": "0"
+        "name": "Tucker Kraft",
+        "value": "117.2"
     },
     {
-        "name": "Tyler Neville",
-        "value": "0"
+        "name": "Pat Freiermuth",
+        "value": "113.6"
     },
     {
-        "name": "Stevo Klotz",
-        "value": "0"
+        "name": "T.J. Hockenson",
+        "value": "112.8"
     },
     {
-        "name": "Anthony Torres",
-        "value": "0"
+        "name": "Sam LaPorta",
+        "value": "106.9"
     },
     {
-        "name": "Oscar Cardenas",
-        "value": "0"
+        "name": "Dawson Knox",
+        "value": "103.7"
     },
     {
-        "name": "Caleb Lohner",
-        "value": "0"
-    },
-    {
-        "name": "Marshall Lang",
-        "value": "0"
-    },
-    {
-        "name": "Robbie Ouzts",
-        "value": "0"
-    },
-    {
-        "name": "Mitch Van Vooren",
-        "value": "0"
-    },
-    {
-        "name": "Drake Dabney",
-        "value": "0"
-    },
-    {
-        "name": "Maximilian Mang",
-        "value": "0"
-    },
-    {
-        "name": "Nick Kallerup",
-        "value": "0"
-    },
-    {
-        "name": "Jermaine Terry II",
-        "value": "0"
-    },
-    {
-        "name": "Ben Yurosek",
-        "value": "0"
-    },
-    {
-        "name": "Tre Watson",
-        "value": "0"
-    },
-    {
-        "name": "Zach Horton",
-        "value": "0"
-    },
-    {
-        "name": "Carter Runyon",
-        "value": "0"
-    },
-    {
-        "name": "Geor'Quarius Spivey",
-        "value": "0"
-    },
-    {
-        "name": "Keleki Latu",
-        "value": "0"
-    },
-    {
-        "name": "CJ Dippre",
-        "value": "0"
-    },
-    {
-        "name": "Mitchell Evans",
-        "value": "0"
-    },
-    {
-        "name": "Gunnar Helm",
-        "value": "0"
-    },
-    {
-        "name": "Harold Fannin Jr.",
-        "value": "0"
-    },
-    {
-        "name": "Hayden Rucci",
-        "value": "0"
-    },
-    {
-        "name": "Qadir Ismail",
-        "value": "0"
-    },
-    {
-        "name": "Jackson Hawes",
-        "value": "0"
-    },
-    {
-        "name": "Gee Scott Jr.",
-        "value": "0"
-    },
-    {
-        "name": "Rivaldo Fairweather",
-        "value": "0"
-    },
-    {
-        "name": "Joshua Simon",
-        "value": "0"
-    },
-    {
-        "name": "Brayden Willis",
-        "value": "0.0"
-    },
-    {
-        "name": "Sal Cannella",
-        "value": "0"
-    },
-    {
-        "name": "Jelani Woods",
-        "value": "0"
-    },
-    {
-        "name": "Cole Turner",
-        "value": "0"
-    },
-    {
-        "name": "Michael Jacobson",
-        "value": "0"
-    },
-    {
-        "name": "Thomas Fidone II",
-        "value": "0"
-    },
-    {
-        "name": "Elijah Arroyo",
-        "value": "0"
-    },
-    {
-        "name": "Luke Lachey",
-        "value": "0"
-    },
-    {
-        "name": "Jake Briningstool",
-        "value": "0"
-    },
-    {
-        "name": "Jalin Conyers",
-        "value": "0"
-    },
-    {
-        "name": "Jacob Harris",
-        "value": "0"
-    },
-    {
-        "name": "Mark Redman",
-        "value": "0"
-    },
-    {
-        "name": "James Mitchell",
-        "value": "0"
-    },
-    {
-        "name": "Terrance Ferguson",
-        "value": "0"
-    },
-    {
-        "name": "Baylor Cupp",
-        "value": "0.0"
-    },
-    {
-        "name": "Moliki Matavao",
-        "value": "0"
-    },
-    {
-        "name": "Justin Shorter",
-        "value": "0.0"
-    },
-    {
-        "name": "Cole Fotheringham",
-        "value": "0"
-    },
-    {
-        "name": "Zaire Mitchell-Paden",
-        "value": "0"
-    },
-    {
-        "name": "Rodney Williams",
-        "value": "0.0"
+        "name": "Evan Engram",
+        "value": "102.8"
     },
     {
         "name": "Jake Tonges",
-        "value": "0.0"
+        "value": "93.3"
     },
     {
-        "name": "Zack Kuntz",
-        "value": "0.0"
+        "name": "Gunnar Helm",
+        "value": "91.7"
     },
     {
-        "name": "Thomas Odukoya",
-        "value": "0.0"
-    },
-    {
-        "name": "Cameron Latu",
-        "value": "0"
-    },
-    {
-        "name": "Nick Muse",
-        "value": "0.0"
-    },
-    {
-        "name": "Teagan Quitoriano",
-        "value": "0.0"
-    },
-    {
-        "name": "Nikola Kalinic",
-        "value": "0"
-    },
-    {
-        "name": "Leroy Watson IV",
-        "value": "0.0"
-    },
-    {
-        "name": "Ko Kieft",
-        "value": "0.0"
-    },
-    {
-        "name": "Donald Parham Jr.",
-        "value": "0"
-    },
-    {
-        "name": "Drake Dunsmore",
-        "value": "0"
-    },
-    {
-        "name": "Dominique Curry",
-        "value": "0"
-    },
-    {
-        "name": "Jordan Matthews",
-        "value": "0.0"
-    },
-    {
-        "name": "Derek Fine",
-        "value": "0"
-    },
-    {
-        "name": "J.P. Foschi",
-        "value": "0"
-    },
-    {
-        "name": "Joey Haynos",
-        "value": "0"
-    },
-    {
-        "name": "Darnell Dinkins",
-        "value": "0"
-    },
-    {
-        "name": "Brad Cottam",
-        "value": "0"
-    },
-    {
-        "name": "Marquez Branson",
-        "value": "0"
-    },
-    {
-        "name": "James Dearth",
-        "value": "0"
-    },
-    {
-        "name": "Keith Zinger",
-        "value": "0"
-    },
-    {
-        "name": "Justin Snow",
-        "value": "0"
-    },
-    {
-        "name": "Anthony Firkser",
-        "value": "0.0"
-    },
-    {
-        "name": "Robert Tonyan",
-        "value": "0"
-    },
-    {
-        "name": "Albert Okwuegbunam Jr.",
-        "value": "0"
-    },
-    {
-        "name": "Stephen Carlson",
-        "value": "0"
-    },
-    {
-        "name": "Andrew Beck",
-        "value": "0.0"
-    },
-    {
-        "name": "Irv Smith Jr.",
-        "value": "0.0"
-    },
-    {
-        "name": "Tyree Jackson",
-        "value": "0"
+        "name": "Mason Taylor",
+        "value": "88.9"
     },
     {
         "name": "Darren Waller",
-        "value": "0"
+        "value": "88.7"
     },
     {
-        "name": "C.J. Uzomah",
-        "value": "0.0"
+        "name": "David Njoku",
+        "value": "86.3"
     },
     {
-        "name": "Zach Wood",
-        "value": "0.0"
+        "name": "Jonnu Smith",
+        "value": "85.2"
     },
     {
-        "name": "Andrew DePaola",
-        "value": "0.0"
+        "name": "Cole Kmet",
+        "value": "78.7"
     },
     {
-        "name": "Patrick Scales",
-        "value": "0.0"
+        "name": "Noah Fant",
+        "value": "74.8"
     },
     {
-        "name": "Tyler Ott",
-        "value": "0"
+        "name": "Michael Mayer",
+        "value": "73.8"
     },
     {
-        "name": "James Winchester",
-        "value": "0.0"
+        "name": "Darnell Washington",
+        "value": "73.4"
     },
     {
-        "name": "Thomas Gordon",
-        "value": "0"
+        "name": "Tyler Higbee",
+        "value": "71.1"
+    },
+    {
+        "name": "Mike Gesicki",
+        "value": "70.7"
+    },
+    {
+        "name": "Tommy Tremble",
+        "value": "63.9"
+    },
+    {
+        "name": "Davis Allen",
+        "value": "62.8"
+    },
+    {
+        "name": "Greg Dulcich",
+        "value": "62.8"
+    },
+    {
+        "name": "Isaiah Likely",
+        "value": "61.7"
+    },
+    {
+        "name": "Daniel Bellinger",
+        "value": "59.6"
+    },
+    {
+        "name": "Austin Hooper",
+        "value": "59.3"
+    },
+    {
+        "name": "Elijah Higgins",
+        "value": "58.1"
+    },
+    {
+        "name": "Josh Oliver",
+        "value": "55.0"
+    },
+    {
+        "name": "Ja'Tavion Sanders",
+        "value": "54.0"
+    },
+    {
+        "name": "Jackson Hawes",
+        "value": "52.7"
+    },
+    {
+        "name": "Terrance Ferguson",
+        "value": "52.1"
+    },
+    {
+        "name": "Luke Musgrave",
+        "value": "49.2"
+    },
+    {
+        "name": "Mitchell Evans",
+        "value": "48.2"
+    },
+    {
+        "name": "Tanner Hudson",
+        "value": "47.8"
+    },
+    {
+        "name": "Jeremy Ruckert",
+        "value": "46.9"
+    },
+    {
+        "name": "Adam Trautman",
+        "value": "45.5"
+    },
+    {
+        "name": "Taysom Hill",
+        "value": "41.8"
+    },
+    {
+        "name": "Noah Gray",
+        "value": "38.8"
+    },
+    {
+        "name": "Elijah Arroyo",
+        "value": "36.9"
+    },
+    {
+        "name": "Brock Wright",
+        "value": "36.8"
+    },
+    {
+        "name": "Charlie Kolar",
+        "value": "36.2"
+    },
+    {
+        "name": "Hunter Long",
+        "value": "32.5"
+    },
+    {
+        "name": "Drew Sample",
+        "value": "31.9"
+    },
+    {
+        "name": "Julian Hill",
+        "value": "31.0"
+    },
+    {
+        "name": "Mo Alie-Cox",
+        "value": "30.7"
+    },
+    {
+        "name": "Luke Farrell",
+        "value": "29.5"
+    },
+    {
+        "name": "Ben Sinnott",
+        "value": "28.4"
+    },
+    {
+        "name": "Connor Heyward",
+        "value": "27.4"
+    },
+    {
+        "name": "John Bates",
+        "value": "27.3"
+    },
+    {
+        "name": "Luke Schoonmaker",
+        "value": "27.2"
+    },
+    {
+        "name": "John FitzPatrick",
+        "value": "25.2"
+    },
+    {
+        "name": "Ian Thomas",
+        "value": "24.4"
+    },
+    {
+        "name": "Brevyn Spann-Ford",
+        "value": "24.0"
+    },
+    {
+        "name": "Grant Calcaterra",
+        "value": "22.6"
+    },
+    {
+        "name": "Will Dissly",
+        "value": "20.7"
+    },
+    {
+        "name": "Johnny Mundt",
+        "value": "20.1"
+    },
+    {
+        "name": "Cade Stover",
+        "value": "19.9"
+    },
+    {
+        "name": "Tanner Conner",
+        "value": "18.1"
+    },
+    {
+        "name": "Quintin Morris",
+        "value": "17.5"
+    },
+    {
+        "name": "Tyler Conklin",
+        "value": "17.3"
+    },
+    {
+        "name": "Nate Adkins",
+        "value": "16.8"
+    },
+    {
+        "name": "Jack Stoll",
+        "value": "16.6"
+    },
+    {
+        "name": "Josh Whyle",
+        "value": "14.6"
+    },
+    {
+        "name": "Anthony Firkser",
+        "value": "13.3"
+    },
+    {
+        "name": "David Martin-Robinson",
+        "value": "13.0"
+    },
+    {
+        "name": "Foster Moreau",
+        "value": "12.9"
+    },
+    {
+        "name": "Charlie Woerner",
+        "value": "12.8"
+    },
+    {
+        "name": "Andrew Ogletree",
+        "value": "12.7"
+    },
+    {
+        "name": "Stone Smartt",
+        "value": "12.2"
+    },
+    {
+        "name": "Josiah Deguara",
+        "value": "11.1"
+    },
+    {
+        "name": "Kylen Granson",
+        "value": "11.0"
+    },
+    {
+        "name": "Eric Saubert",
+        "value": "9.1"
+    },
+    {
+        "name": "Brenden Bates",
+        "value": "8.8"
+    },
+    {
+        "name": "Albert Okwuegbunam",
+        "value": "8.6"
+    },
+    {
+        "name": "Devin Culp",
+        "value": "7.6"
+    },
+    {
+        "name": "Keleki Latu",
+        "value": "7.5"
+    },
+    {
+        "name": "Durham Smythe",
+        "value": "6.5"
+    },
+    {
+        "name": "Ben Sims",
+        "value": "6.0"
+    },
+    {
+        "name": "James Mitchell",
+        "value": "5.8"
+    },
+    {
+        "name": "Tucker Fisk",
+        "value": "3.9"
     }
 ];
 const lastYearKickers = [
@@ -5126,6 +2710,17 @@ const lastYearDefense = [
     }
 ];
 
+const normalizeName = (name) => name
+    .replace(/\./g, '')
+    .replace(/\s+(Jr|Sr|II|III|IV|V)\.?$/i, '')
+    .trim()
+    .toLowerCase();
+
+const findByName = (list, name) => {
+    const target = normalizeName(name);
+    return list.find(entry => normalizeName(entry.name) === target);
+};
+
 matches.forEach(match => {
     const [fullMatch, overallRank, position, positionRank, playerName, team, spend, byeWeek] = match;
     const playerInfo = {
@@ -5140,22 +2735,22 @@ matches.forEach(match => {
     }
     switch (position) {
         case 'WR':
-            playerInfo.fantasyPoints = lastYearWrs.find(wr => wr.name === playerName.trim())?.value || 0;
+            playerInfo.fantasyPoints = findByName(lastYearWrs, playerName)?.value || 0;
             break;
         case 'RB':
-            playerInfo.fantasyPoints = lastYearRbs.find(rb => rb.name === playerName.trim())?.value || 0;
+            playerInfo.fantasyPoints = findByName(lastYearRbs, playerName)?.value || 0;
             break;
         case 'TE':
-            playerInfo.fantasyPoints = lastYearTE.find(te => te.name === playerName.trim())?.value || 0;
+            playerInfo.fantasyPoints = findByName(lastYearTE, playerName)?.value || 0;
             break;
         case 'QB':
-            playerInfo.fantasyPoints = lastYearQbs.find(qb => qb.name === playerName.trim())?.value || 0;
+            playerInfo.fantasyPoints = findByName(lastYearQbs, playerName)?.value || 0;
             break;
         case 'DST':
             playerInfo.fantasyPoints = lastYearDefense.find(def => def.name.includes(playerName.trim()))?.value || 0;
             break;
         case 'K':
-            playerInfo.fantasyPoints = lastYearKickers.find(kicker => kicker.name === playerName.trim())?.value || 0;
+            playerInfo.fantasyPoints = findByName(lastYearKickers, playerName)?.value || 0;
             break;
         default:
             console.warn(`Unknown position: ${position} for player ${playerName}`);
