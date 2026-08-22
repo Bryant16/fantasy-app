@@ -456,30 +456,32 @@ const PlayerTable = () => {
               {/* Starting Lineup */}
               <div className="lineup-section">
                 <h4>Starting Lineup</h4>
-                {Object.entries(ROSTER_REQUIREMENTS).map(([position, required]) => (
-                  <div key={position} className="position-group">
-                    <div className="position-header">
-                      {position} ({getOptimalLineup().starters[position].length}/{required})
+                <div className="lineup-positions">
+                  {Object.entries(ROSTER_REQUIREMENTS).map(([position, required]) => (
+                    <div key={position} className="position-group">
+                      <div className="position-header">
+                        {position} ({getOptimalLineup().starters[position].length}/{required})
+                      </div>
+
+                      {Array.from({ length: required }).map((_, index) => {
+                        const player = getOptimalLineup().starters[position][index];
+                        return (
+                          <div key={index} className={`roster-slot ${player ? 'filled' : 'empty'}`}>
+                            {player ? (
+                              <>
+                                <span className={getPositionClass(player.position)}>{player.position}</span>
+                                <span className="player-name">{player.playerName}</span>
+                                <span className="player-rank">#{player.overallRank}</span>
+                              </>
+                            ) : (
+                              <span className="empty-slot">Empty {position} slot</span>
+                            )}
+                          </div>
+                        );
+                      })}
                     </div>
-                    
-                    {Array.from({ length: required }).map((_, index) => {
-                      const player = getOptimalLineup().starters[position][index];
-                      return (
-                        <div key={index} className={`roster-slot ${player ? 'filled' : 'empty'}`}>
-                          {player ? (
-                            <>
-                              <span className={getPositionClass(player.position)}>{player.position}</span>
-                              <span className="player-name">{player.playerName}</span>
-                              <span className="player-rank">#{player.overallRank}</span>
-                            </>
-                          ) : (
-                            <span className="empty-slot">Empty {position} slot</span>
-                          )}
-                        </div>
-                      );
-                    })}
-                  </div>
-                ))}
+                  ))}
+                </div>
               </div>
 
               {/* Bench */}
