@@ -1,3 +1,5 @@
+import espnPlayerIds from './espnPlayerIds.js';
+
 const data = `
 1. (RB1)	Jahmyr Gibbs, DET	$57	6
 2. (RB2)	Bijan Robinson, ATL	$56	11
@@ -2711,7 +2713,7 @@ const lastYearDefense = [
 ];
 
 const normalizeName = (name) => name
-    .replace(/\./g, '')
+    .replace(/[.'’]/g, '')
     .replace(/\s+(Jr|Sr|II|III|IV|V)\.?$/i, '')
     .trim()
     .toLowerCase();
@@ -2720,6 +2722,13 @@ const findByName = (list, name) => {
     const target = normalizeName(name);
     return list.find(entry => normalizeName(entry.name) === target);
 };
+
+const normalizedEspnIds = Object.entries(espnPlayerIds).reduce((acc, [name, id]) => {
+    acc[normalizeName(name)] = id;
+    return acc;
+}, {});
+
+const findEspnId = (name) => normalizedEspnIds[normalizeName(name)];
 
 matches.forEach(match => {
     const [fullMatch, overallRank, position, positionRank, playerName, team, spend, byeWeek] = match;
@@ -2732,6 +2741,7 @@ matches.forEach(match => {
         spend: parseInt(spend),
         byeWeek: parseInt(byeWeek),
         fantasyPoints: 0, // Default value, can be updated later
+        espnId: findEspnId(playerName),
     }
     switch (position) {
         case 'WR':

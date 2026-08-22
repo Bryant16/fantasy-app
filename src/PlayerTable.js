@@ -56,6 +56,16 @@ const clearStorage = (key) => {
   }
 };
 
+const getEspnProfileUrl = (player) => {
+  if (!player.espnId) return null;
+  const slug = player.playerName
+    .toLowerCase()
+    .replace(/[^a-z0-9\s-]/g, '')
+    .trim()
+    .replace(/\s+/g, '-');
+  return `https://www.espn.com/nfl/player/_/id/${player.espnId}/${slug}`;
+};
+
 const PlayerTable = () => {
   const [players, setPlayers] = useState([]);
   const [searchTerm, setSearchTerm] = useState(() => loadFromStorage(STORAGE_KEYS.SEARCH_TERM, ''));
@@ -442,11 +452,20 @@ const PlayerTable = () => {
               {filteredPlayers.map(player => {
                 const isOnMyTeam = myTeam.some(teamPlayer => teamPlayer.id === player.id);
                 const isDrafted = isPlayerDrafted(player);
-                
+                const espnUrl = getEspnProfileUrl(player);
+
                 return (
                   <tr key={player.id} className={isDrafted ? 'drafted' : ''}>
                     {visibleColumns.overallRank && <td>{player.overallRank}</td>}
-                    <td>{player.playerName}</td>
+                    <td>
+                      {espnUrl ? (
+                        <a href={espnUrl} target="_blank" rel="noopener noreferrer" className="player-name-link">
+                          {player.playerName}
+                        </a>
+                      ) : (
+                        player.playerName
+                      )}
+                    </td>
                     {visibleColumns.team && <td>{player.team}</td>}
                     {visibleColumns.position && <td>{player.position}</td>}
                     {visibleColumns.positionRank && <td>{player.positionRank}</td>}
